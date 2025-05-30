@@ -1,61 +1,34 @@
-# Food Safety Compliance Monitoring System (Sentinel)
+# Food Safety Risk Assessment System
 
-A full-stack system for monitoring and predicting food safety compliance risks across food delivery operations.
+A machine learning-based system for assessing food safety risks in restaurants and food establishments. The system uses advanced ML techniques to predict potential violations and assess risk levels based on historical inspection data.
 
-## Project Overview
+## Features
 
-Sentinel combines real inspection data with simulated audit logs to predict non-compliance risks in food delivery operations. The system uses machine learning to identify patterns and potential violations before they occur.
+- **Advanced Risk Assessment:**
+  - Stacked ensemble of XGBoost, LightGBM, Neural Network, and Random Forest models
+  - Sophisticated feature engineering including location-based, temporal, and pattern analysis
+  - Real-time risk scoring and prediction
 
-### Key Features
+- **Sophisticated Feature Engineering:**
+  - Location-based clustering and analysis
+  - Violation pattern analysis using PCA
+  - Seasonal and temporal pattern detection
+  - Establishment-specific risk indicators
+  - Historical performance tracking
 
-- Real-time compliance risk prediction
-- Historical inspection data analysis
-- Synthetic data generation for testing
-- Interactive dashboard for monitoring
-- Automated audit logging
-- Risk heatmaps and trend analysis
+- **Model Monitoring and Maintenance:**
+  - Continuous performance tracking
+  - Drift detection
+  - Automated retraining triggers
+  - Model health monitoring
+  - Performance metrics logging
 
-## Tech Stack
-
-- **Backend**: Python, dbt
-- **Frontend**: Streamlit
-- **Machine Learning**: Scikit-learn, XGBoost
-- **Database**: DuckDB/PostgreSQL
-- **Data Processing**: pandas, numpy
-- **Visualization**: Plotly, Seaborn
-
-## Project Structure
-
-```
-├── data/
-│   ├── raw/           # Original datasets
-│   ├── processed/     # Cleaned data
-│   └── simulated/     # Generated synthetic data
-├── data_engineering/
-│   ├── ingest.py      # Data loading utilities
-│   └── simulate.py    # Synthetic data generation
-├── sentinel_dbt/      # dbt transformation pipeline
-│   ├── models/staging/
-│   ├── models/intermediate/
-│   └── models/marts/
-├── ml/
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   └── evaluate.py
-├── dashboard/
-│   ├── app.py         # Main Streamlit app
-│   └── pages/         # Multi-page components
-├── notebooks/         # Jupyter analysis notebooks
-├── tests/            # Unit and integration tests
-└── models/           # Saved ML artifacts
-```
-
-## Setup Instructions
+## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dev2703/Food-Safety-Compliance-Monitoring-System.git
-cd Food-Safety-Compliance-Monitoring-System
+git clone https://github.com/yourusername/food-safety-risk-assessment.git
+cd food-safety-risk-assessment
 ```
 
 2. Create and activate a virtual environment:
@@ -69,33 +42,67 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Set up the database:
+## Usage
+
+1. Train the model:
 ```bash
-# Instructions for database setup will be added
+python risk_engine/ml_risk_assessor.py
 ```
 
-5. Run the development server:
-```bash
-streamlit run dashboard/app.py
+2. Check model health:
+```python
+from risk_engine.ml_risk_assessor import MLRiskAssessor
+
+assessor = MLRiskAssessor()
+health_status = assessor.check_model_health()
+print(health_status)
 ```
 
-## Development Milestones
+3. Predict risk for an establishment:
+```python
+risk_assessment = assessor.predict_risk("Restaurant Name")
+print(risk_assessment)
+```
 
-1. 🏗️ Project Setup & Data Acquisition
-2. 🎭 Data Simulation & Ingestion
-3. 🧹 Data Cleaning & Transformation
-4. ⚙️ Feature Engineering & ML Pipeline
-5. 🤖 Model Training & Evaluation
-6. 📊 Dashboard Development & Deployment
+## Project Structure
+
+```
+food-safety-risk-assessment/
+├── risk_engine/
+│   ├── ml_risk_assessor.py      # Main ML risk assessment module
+│   ├── risk_calculator.py       # Risk calculation utilities
+│   ├── update_schema.py         # Database schema management
+│   └── models/                  # Saved model files
+├── requirements.txt             # Project dependencies
+├── README.md                    # Project documentation
+└── .gitignore                  # Git ignore file
+```
+
+## Dependencies
+
+- Python 3.8+
+- scikit-learn
+- XGBoost
+- LightGBM
+- pandas
+- numpy
+- scipy
+- joblib
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## Acknowledgments
 
-For any questions or concerns, please open an issue in the GitHub repository. 
+- Food safety inspection data providers
+- Open source machine learning community
+- Contributors and maintainers 
