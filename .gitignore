@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -15,14 +16,12 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
 # Virtual Environment
 venv/
-env/
 ENV/
 
 # IDE
@@ -30,7 +29,18 @@ ENV/
 .vscode/
 *.swp
 *.swo
-.DS_Store
+
+# Project specific
+food_safety.db
+eda_reports/
+data/raw/*.csv
+data/validation_reports/
+*.log
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/simulated/.gitkeep
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -40,9 +50,6 @@ ENV/
 data/raw/*
 data/processed/*
 data/simulated/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/simulated/.gitkeep
 
 # Models
 models/*.pkl
@@ -50,7 +57,6 @@ models/*.joblib
 models/*.h5
 
 # Logs
-*.log
 logs/
 dbt_packages/
 target/
