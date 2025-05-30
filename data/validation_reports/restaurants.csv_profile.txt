@@ -1,0 +1,21 @@
+## file
+data/raw/restaurants/restaurants.csv
+
+## shape
+(1000, 13)
+
+## columns
+['Restaurant ID', 'Name', 'Type', 'Risk Level', 'Address', 'City', 'State', 'Zip', 'License Number', 'Opening Date', 'Capacity', 'Has Delivery', 'Has Outdoor Seating']
+
+## dtypes
+{'Restaurant ID': 'int64', 'Name': 'object', 'Type': 'object', 'Risk Level': 'object', 'Address': 'object', 'City': 'object', 'State': 'object', 'Zip': 'int64', 'License Number': 'object', 'Opening Date': 'object', 'Capacity': 'int64', 'Has Delivery': 'bool', 'Has Outdoor Seating': 'bool'}
+
+## missing_values
+{'Restaurant ID': 0, 'Name': 0, 'Type': 0, 'Risk Level': 0, 'Address': 0, 'City': 0, 'State': 0, 'Zip': 0, 'License Number': 0, 'Opening Date': 0, 'Capacity': 0, 'Has Delivery': 0, 'Has Outdoor Seating': 0}
+
+## sample_rows
+[{'Restaurant ID': 1, 'Name': 'Restaurant_1', 'Type': 'Bakery', 'Risk Level': 'Risk 2 (Medium)', 'Address': '7354 Main St', 'City': 'Chicago', 'State': 'IL', 'Zip': 60645, 'License Number': 'L3815344', 'Opening Date': '2025-01-15', 'Capacity': 194, 'Has Delivery': False, 'Has Outdoor Seating': False}, {'Restaurant ID': 2, 'Name': 'Restaurant_2', 'Type': 'Food Truck', 'Risk Level': 'Risk 2 (Medium)', 'Address': '6879 Main St', 'City': 'Chicago', 'State': 'IL', 'Zip': 60665, 'License Number': 'L7301024', 'Opening Date': '2023-01-15', 'Capacity': 110, 'Has Delivery': False, 'Has Outdoor Seating': False}, {'Restaurant ID': 3, 'Name': 'Restaurant_3', 'Type': 'Cafe', 'Risk Level': 'Risk 3 (Low)', 'Address': '3172 Main St', 'City': 'Chicago', 'State': 'IL', 'Zip': 60686, 'License Number': 'L6465616', 'Opening Date': '2020-05-24', 'Capacity': 130, 'Has Delivery': False, 'Has Outdoor Seating': True}]
+
+## describe
+{'Restaurant ID': {'count': 1000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 500.5, 'std': 288.8194360957494, 'min': 1.0, '25%': 250.75, '50%': 500.5, '75%': 750.25, 'max': 1000.0}, 'Name': {'count': 1000, 'unique': 1000, 'top': 'Restaurant_1', 'freq': 1, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Type': {'count': 1000, 'unique': 5, 'top': 'Grocery Store', 'freq': 216, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Risk Level': {'count': 1000, 'unique': 3, 'top': 'Risk 2 (Medium)', 'freq': 343, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Address': {'count': 1000, 'unique': 944, 'top': '1880 Main St', 'freq': 3, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'City': {'count': 1000, 'unique': 1, 'top': 'Chicago', 'freq': 1000, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'State': {'count': 1000, 'unique': 1, 'top': 'IL', 'freq': 1000, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Zip': {'count': 1000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 60650.66, 'std': 28.190336909925268, 'min': 60601.0, '25%': 60627.0, '50%': 60651.0, '75%': 60675.0, 'max': 60699.0}, 'License Number': {'count': 1000, 'unique': 999, 'top': 'L3992695', 'freq': 2, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Opening Date': {'count': 1000, 'unique': 873, 'top': '2017-07-27', 'freq': 3, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Capacity': {'count': 1000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 108.483, 'std': 53.0630511599022, 'min': 20.0, '25%': 60.0, '50%': 108.0, '75%': 156.0, 'max': 199.0}, 'Has Delivery': {'count': 1000, 'unique': 2, 'top': True, 'freq': 509, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Has Outdoor Seating': {'count': 1000, 'unique': 2, 'top': True, 'freq': 510, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}}
+

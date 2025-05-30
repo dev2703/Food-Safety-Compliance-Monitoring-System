@@ -1,0 +1,21 @@
+## file
+data/raw/violations/violations.csv
+
+## shape
+(5000, 9)
+
+## columns
+['Violation ID', 'Restaurant ID', 'Inspection ID', 'Violation Type', 'Severity', 'Description', 'Date', 'Corrected', 'Correction Date']
+
+## dtypes
+{'Violation ID': 'int64', 'Restaurant ID': 'int64', 'Inspection ID': 'int64', 'Violation Type': 'object', 'Severity': 'object', 'Description': 'object', 'Date': 'object', 'Corrected': 'bool', 'Correction Date': 'object'}
+
+## missing_values
+{'Violation ID': 0, 'Restaurant ID': 0, 'Inspection ID': 0, 'Violation Type': 0, 'Severity': 0, 'Description': 0, 'Date': 0, 'Corrected': 0, 'Correction Date': 1520}
+
+## sample_rows
+[{'Violation ID': 1, 'Restaurant ID': 366, 'Inspection ID': 644, 'Violation Type': 'Cross Contamination', 'Severity': 'Critical', 'Description': 'Violation description for 1', 'Date': '2024-12-04', 'Corrected': False, 'Correction Date': '2025-05-01'}, {'Violation ID': 2, 'Restaurant ID': 605, 'Inspection ID': 6470, 'Violation Type': 'Cross Contamination', 'Severity': 'Critical', 'Description': 'Violation description for 2', 'Date': '2024-06-17', 'Corrected': False, 'Correction Date': nan}, {'Violation ID': 3, 'Restaurant ID': 523, 'Inspection ID': 7767, 'Violation Type': 'Documentation', 'Severity': 'Minor', 'Description': 'Violation description for 3', 'Date': '2024-12-07', 'Corrected': False, 'Correction Date': '2025-04-30'}]
+
+## describe
+{'Violation ID': {'count': 5000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 2500.5, 'std': 1443.5200033252052, 'min': 1.0, '25%': 1250.75, '50%': 2500.5, '75%': 3750.25, 'max': 5000.0}, 'Restaurant ID': {'count': 5000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 501.6572, 'std': 288.75593723145727, 'min': 1.0, '25%': 245.0, '50%': 509.0, '75%': 751.0, 'max': 1000.0}, 'Inspection ID': {'count': 5000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 4971.857, 'std': 2868.992808373332, 'min': 2.0, '25%': 2502.75, '50%': 4992.0, '75%': 7450.0, 'max': 9997.0}, 'Violation Type': {'count': 5000, 'unique': 8, 'top': 'Equipment Maintenance', 'freq': 672, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Severity': {'count': 5000, 'unique': 3, 'top': 'Critical', 'freq': 1701, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Description': {'count': 5000, 'unique': 5000, 'top': 'Violation description for 1', 'freq': 1, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Date': {'count': 5000, 'unique': 365, 'top': '2024-08-12', 'freq': 26, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Corrected': {'count': 5000, 'unique': 2, 'top': False, 'freq': 2538, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Correction Date': {'count': 3480, 'unique': 30, 'top': '2025-05-18', 'freq': 135, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}}
+

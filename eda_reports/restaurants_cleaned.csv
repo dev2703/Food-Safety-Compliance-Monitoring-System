@@ -1,0 +1,1001 @@
+restaurant_id,name,type,risk_level,address,city,state,zip,license_number,opening_date,capacity,has_delivery,has_outdoor_seating,restaurant_age_years
+1,Restaurant_1,Bakery,Risk 2 (Medium),7354 Main St,Chicago,IL,60645,L3815344,2025-01-15,194,0,0,0
+2,Restaurant_2,Food Truck,Risk 2 (Medium),6879 Main St,Chicago,IL,60665,L7301024,2023-01-15,110,0,0,2
+3,Restaurant_3,Cafe,Risk 3 (Low),3172 Main St,Chicago,IL,60686,L6465616,2020-05-24,130,0,1,5
+4,Restaurant_4,Restaurant,Risk 3 (Low),8228 Main St,Chicago,IL,60691,L9405631,2018-11-08,192,0,0,6
+5,Restaurant_5,Bakery,Risk 1 (High),7338 Main St,Chicago,IL,60679,L4959566,2020-03-15,59,1,1,5
+6,Restaurant_6,Grocery Store,Risk 3 (Low),911 Main St,Chicago,IL,60675,L8964361,2022-08-14,81,1,1,2
+7,Restaurant_7,Restaurant,Risk 2 (Medium),3783 Main St,Chicago,IL,60655,L5854951,2020-01-21,108,0,1,5
+8,Restaurant_8,Grocery Store,Risk 1 (High),2076 Main St,Chicago,IL,60619,L7028066,2018-05-15,49,0,1,7
+9,Restaurant_9,Bakery,Risk 3 (Low),3537 Main St,Chicago,IL,60662,L5382587,2024-06-24,69,1,0,0
+10,Restaurant_10,Restaurant,Risk 2 (Medium),5761 Main St,Chicago,IL,60603,L4875872,2020-11-20,20,0,0,4
+11,Restaurant_11,Cafe,Risk 1 (High),1167 Main St,Chicago,IL,60608,L9800309,2017-10-21,44,1,0,7
+12,Restaurant_12,Cafe,Risk 1 (High),5080 Main St,Chicago,IL,60632,L5362932,2016-12-10,52,0,1,8
+13,Restaurant_13,Grocery Store,Risk 1 (High),7884 Main St,Chicago,IL,60606,L5357541,2017-02-18,180,0,0,8
+14,Restaurant_14,Grocery Store,Risk 3 (Low),2027 Main St,Chicago,IL,60662,L9775504,2022-04-25,55,1,0,3
+15,Restaurant_15,Bakery,Risk 2 (Medium),9954 Main St,Chicago,IL,60668,L6376360,2021-12-04,171,1,1,3
+16,Restaurant_16,Cafe,Risk 2 (Medium),1156 Main St,Chicago,IL,60615,L4162986,2025-02-22,111,1,0,0
+17,Restaurant_17,Bakery,Risk 1 (High),5349 Main St,Chicago,IL,60679,L4828577,2017-07-27,25,0,1,7
+18,Restaurant_18,Bakery,Risk 1 (High),6347 Main St,Chicago,IL,60626,L9781969,2018-05-09,41,1,1,7
+19,Restaurant_19,Bakery,Risk 3 (Low),5007 Main St,Chicago,IL,60648,L8154363,2024-12-15,122,1,0,0
+20,Restaurant_20,Grocery Store,Risk 1 (High),8496 Main St,Chicago,IL,60698,L5982923,2017-06-13,59,1,0,7
+21,Restaurant_21,Grocery Store,Risk 2 (Medium),1438 Main St,Chicago,IL,60657,L2251948,2024-02-21,86,0,1,1
+22,Restaurant_22,Grocery Store,Risk 3 (Low),7793 Main St,Chicago,IL,60658,L4109660,2017-11-10,191,0,0,7
+23,Restaurant_23,Cafe,Risk 1 (High),8745 Main St,Chicago,IL,60610,L3337066,2020-04-19,26,0,0,5
+24,Restaurant_24,Restaurant,Risk 3 (Low),7339 Main St,Chicago,IL,60618,L5625573,2024-10-01,194,1,1,0
+25,Restaurant_25,Grocery Store,Risk 3 (Low),2152 Main St,Chicago,IL,60673,L1896764,2024-02-28,57,0,0,1
+26,Restaurant_26,Restaurant,Risk 3 (Low),2703 Main St,Chicago,IL,60620,L7363404,2023-11-11,191,0,1,1
+27,Restaurant_27,Cafe,Risk 3 (Low),6132 Main St,Chicago,IL,60629,L9686751,2021-10-28,140,1,1,3
+28,Restaurant_28,Bakery,Risk 2 (Medium),4651 Main St,Chicago,IL,60693,L4230604,2016-03-28,134,1,1,9
+29,Restaurant_29,Grocery Store,Risk 2 (Medium),7121 Main St,Chicago,IL,60676,L6067168,2015-10-31,154,1,1,9
+30,Restaurant_30,Cafe,Risk 1 (High),2816 Main St,Chicago,IL,60636,L9224626,2023-04-14,104,0,0,2
+31,Restaurant_31,Restaurant,Risk 2 (Medium),6703 Main St,Chicago,IL,60678,L8562742,2022-08-19,55,1,0,2
+32,Restaurant_32,Restaurant,Risk 1 (High),4378 Main St,Chicago,IL,60602,L3019584,2021-04-16,36,1,1,4
+33,Restaurant_33,Grocery Store,Risk 1 (High),2404 Main St,Chicago,IL,60685,L1485090,2019-10-31,142,1,1,5
+34,Restaurant_34,Food Truck,Risk 3 (Low),7744 Main St,Chicago,IL,60655,L9602818,2019-01-18,188,1,1,6
+35,Restaurant_35,Food Truck,Risk 3 (Low),5925 Main St,Chicago,IL,60607,L2586969,2024-12-29,155,0,1,0
+36,Restaurant_36,Cafe,Risk 1 (High),4347 Main St,Chicago,IL,60642,L2951808,2024-08-05,168,1,0,0
+37,Restaurant_37,Bakery,Risk 1 (High),8489 Main St,Chicago,IL,60646,L5093155,2024-01-04,94,0,1,1
+38,Restaurant_38,Cafe,Risk 1 (High),6162 Main St,Chicago,IL,60612,L4696375,2024-11-25,71,1,1,0
+39,Restaurant_39,Food Truck,Risk 3 (Low),9965 Main St,Chicago,IL,60612,L9198398,2022-06-14,41,0,1,2
+40,Restaurant_40,Bakery,Risk 1 (High),8438 Main St,Chicago,IL,60682,L9344850,2022-10-04,68,1,1,2
+41,Restaurant_41,Restaurant,Risk 3 (Low),3287 Main St,Chicago,IL,60646,L3718980,2020-05-27,79,1,0,5
+42,Restaurant_42,Restaurant,Risk 1 (High),6820 Main St,Chicago,IL,60651,L3632473,2016-04-10,21,0,0,9
+43,Restaurant_43,Food Truck,Risk 2 (Medium),9060 Main St,Chicago,IL,60636,L5407839,2015-06-07,158,1,1,9
+44,Restaurant_44,Food Truck,Risk 2 (Medium),6039 Main St,Chicago,IL,60663,L5995226,2024-09-28,80,0,0,0
+45,Restaurant_45,Cafe,Risk 1 (High),5093 Main St,Chicago,IL,60627,L6907060,2018-11-23,144,0,1,6
+46,Restaurant_46,Cafe,Risk 3 (Low),8070 Main St,Chicago,IL,60620,L7233725,2024-05-05,63,0,1,1
+47,Restaurant_47,Bakery,Risk 2 (Medium),20 Main St,Chicago,IL,60609,L4109126,2015-06-13,193,0,0,9
+48,Restaurant_48,Restaurant,Risk 3 (Low),6474 Main St,Chicago,IL,60678,L6548127,2017-02-15,167,0,0,8
+49,Restaurant_49,Cafe,Risk 2 (Medium),9036 Main St,Chicago,IL,60649,L4988680,2018-11-03,58,0,1,6
+50,Restaurant_50,Cafe,Risk 1 (High),5678 Main St,Chicago,IL,60652,L7143149,2017-01-12,163,1,1,8
+51,Restaurant_51,Food Truck,Risk 2 (Medium),4818 Main St,Chicago,IL,60692,L6929358,2024-07-06,116,1,1,0
+52,Restaurant_52,Restaurant,Risk 1 (High),7218 Main St,Chicago,IL,60623,L8366917,2023-08-05,57,1,0,1
+53,Restaurant_53,Restaurant,Risk 1 (High),7445 Main St,Chicago,IL,60647,L8244397,2021-10-27,53,1,1,3
+54,Restaurant_54,Grocery Store,Risk 2 (Medium),1557 Main St,Chicago,IL,60673,L6138217,2022-08-09,191,0,1,2
+55,Restaurant_55,Restaurant,Risk 3 (Low),7290 Main St,Chicago,IL,60696,L2992600,2025-04-18,29,0,1,0
+56,Restaurant_56,Restaurant,Risk 3 (Low),5783 Main St,Chicago,IL,60632,L7678421,2019-06-13,136,0,0,5
+57,Restaurant_57,Food Truck,Risk 2 (Medium),6142 Main St,Chicago,IL,60615,L9524797,2019-07-10,188,1,0,5
+58,Restaurant_58,Bakery,Risk 2 (Medium),7213 Main St,Chicago,IL,60656,L1905752,2015-12-01,83,0,1,9
+59,Restaurant_59,Restaurant,Risk 2 (Medium),1180 Main St,Chicago,IL,60682,L5338010,2023-07-08,86,1,1,1
+60,Restaurant_60,Restaurant,Risk 1 (High),720 Main St,Chicago,IL,60696,L6471272,2020-08-20,171,1,0,4
+61,Restaurant_61,Food Truck,Risk 2 (Medium),5443 Main St,Chicago,IL,60603,L1969189,2020-07-28,94,1,1,4
+62,Restaurant_62,Cafe,Risk 2 (Medium),3202 Main St,Chicago,IL,60601,L1684046,2022-11-06,140,0,1,2
+63,Restaurant_63,Bakery,Risk 2 (Medium),5763 Main St,Chicago,IL,60695,L3624924,2022-10-16,141,1,1,2
+64,Restaurant_64,Grocery Store,Risk 3 (Low),1059 Main St,Chicago,IL,60670,L6318942,2023-08-06,58,1,0,1
+65,Restaurant_65,Restaurant,Risk 2 (Medium),7213 Main St,Chicago,IL,60611,L2200542,2017-07-24,87,1,1,7
+66,Restaurant_66,Bakery,Risk 1 (High),3932 Main St,Chicago,IL,60651,L9363060,2015-11-20,47,0,1,9
+67,Restaurant_67,Cafe,Risk 1 (High),1819 Main St,Chicago,IL,60695,L2728374,2022-03-13,30,1,0,3
+68,Restaurant_68,Cafe,Risk 2 (Medium),4898 Main St,Chicago,IL,60649,L1379020,2017-01-05,46,1,0,8
+69,Restaurant_69,Food Truck,Risk 3 (Low),7078 Main St,Chicago,IL,60639,L1973248,2021-11-07,161,1,0,3
+70,Restaurant_70,Food Truck,Risk 3 (Low),235 Main St,Chicago,IL,60649,L5249029,2016-01-25,170,0,1,9
+71,Restaurant_71,Food Truck,Risk 1 (High),1955 Main St,Chicago,IL,60699,L2767245,2019-02-01,160,1,1,6
+72,Restaurant_72,Grocery Store,Risk 2 (Medium),343 Main St,Chicago,IL,60672,L4428401,2021-12-05,159,0,1,3
+73,Restaurant_73,Grocery Store,Risk 1 (High),2542 Main St,Chicago,IL,60682,L9027180,2022-11-11,58,0,1,2
+74,Restaurant_74,Grocery Store,Risk 1 (High),9456 Main St,Chicago,IL,60633,L8022243,2018-08-29,111,0,0,6
+75,Restaurant_75,Restaurant,Risk 3 (Low),5329 Main St,Chicago,IL,60678,L2166926,2024-06-02,101,0,1,0
+76,Restaurant_76,Restaurant,Risk 3 (Low),1038 Main St,Chicago,IL,60661,L4146598,2018-09-01,83,1,0,6
+77,Restaurant_77,Bakery,Risk 2 (Medium),2373 Main St,Chicago,IL,60612,L7977529,2018-10-10,93,1,0,6
+78,Restaurant_78,Cafe,Risk 1 (High),1292 Main St,Chicago,IL,60684,L8145420,2024-10-29,143,1,1,0
+79,Restaurant_79,Restaurant,Risk 3 (Low),3442 Main St,Chicago,IL,60622,L5395011,2023-06-20,91,0,1,1
+80,Restaurant_80,Cafe,Risk 3 (Low),4306 Main St,Chicago,IL,60650,L5427097,2022-02-07,197,1,1,3
+81,Restaurant_81,Grocery Store,Risk 2 (Medium),1267 Main St,Chicago,IL,60626,L5580033,2020-06-24,169,1,0,4
+82,Restaurant_82,Restaurant,Risk 3 (Low),7450 Main St,Chicago,IL,60668,L1566936,2024-02-21,125,1,1,1
+83,Restaurant_83,Cafe,Risk 3 (Low),2183 Main St,Chicago,IL,60695,L8930626,2021-12-25,115,0,1,3
+84,Restaurant_84,Cafe,Risk 1 (High),5399 Main St,Chicago,IL,60661,L2912956,2020-05-02,139,1,1,5
+85,Restaurant_85,Restaurant,Risk 2 (Medium),8892 Main St,Chicago,IL,60650,L3372546,2016-09-09,85,0,1,8
+86,Restaurant_86,Food Truck,Risk 3 (Low),3880 Main St,Chicago,IL,60691,L6842017,2021-01-28,190,1,1,4
+87,Restaurant_87,Restaurant,Risk 2 (Medium),1422 Main St,Chicago,IL,60668,L8183334,2016-07-31,54,1,0,8
+88,Restaurant_88,Grocery Store,Risk 2 (Medium),2220 Main St,Chicago,IL,60695,L5895873,2024-04-01,62,1,0,1
+89,Restaurant_89,Grocery Store,Risk 1 (High),8018 Main St,Chicago,IL,60646,L3470002,2022-09-04,177,0,0,2
+90,Restaurant_90,Grocery Store,Risk 3 (Low),6145 Main St,Chicago,IL,60623,L4586122,2018-08-16,32,0,0,6
+91,Restaurant_91,Grocery Store,Risk 1 (High),6403 Main St,Chicago,IL,60663,L5620326,2020-02-07,51,0,0,5
+92,Restaurant_92,Food Truck,Risk 1 (High),2908 Main St,Chicago,IL,60608,L9960784,2021-04-19,157,0,0,4
+93,Restaurant_93,Restaurant,Risk 2 (Medium),3316 Main St,Chicago,IL,60677,L2992504,2020-02-12,40,1,1,5
+94,Restaurant_94,Cafe,Risk 2 (Medium),1880 Main St,Chicago,IL,60621,L4146329,2015-09-23,174,0,1,9
+95,Restaurant_95,Food Truck,Risk 3 (Low),9458 Main St,Chicago,IL,60679,L3849248,2019-12-28,104,0,0,5
+96,Restaurant_96,Restaurant,Risk 3 (Low),6799 Main St,Chicago,IL,60627,L4265644,2021-01-31,122,1,1,4
+97,Restaurant_97,Cafe,Risk 1 (High),2629 Main St,Chicago,IL,60615,L5087310,2024-10-22,161,0,0,0
+98,Restaurant_98,Bakery,Risk 2 (Medium),9944 Main St,Chicago,IL,60658,L5212617,2015-06-07,111,0,1,9
+99,Restaurant_99,Cafe,Risk 3 (Low),2645 Main St,Chicago,IL,60690,L6978472,2020-09-30,34,0,1,4
+100,Restaurant_100,Restaurant,Risk 3 (Low),3220 Main St,Chicago,IL,60664,L2121287,2024-12-23,193,0,0,0
+101,Restaurant_101,Food Truck,Risk 2 (Medium),6325 Main St,Chicago,IL,60698,L8229604,2025-02-24,158,0,1,0
+102,Restaurant_102,Restaurant,Risk 2 (Medium),7820 Main St,Chicago,IL,60641,L5243322,2021-06-15,163,0,0,3
+103,Restaurant_103,Restaurant,Risk 1 (High),9267 Main St,Chicago,IL,60655,L9077283,2015-06-29,105,0,0,9
+104,Restaurant_104,Restaurant,Risk 2 (Medium),3448 Main St,Chicago,IL,60626,L7778310,2017-07-27,51,0,1,7
+105,Restaurant_105,Bakery,Risk 3 (Low),7667 Main St,Chicago,IL,60636,L5767323,2016-07-19,31,0,1,8
+106,Restaurant_106,Cafe,Risk 1 (High),5201 Main St,Chicago,IL,60695,L1257000,2021-08-13,194,1,1,3
+107,Restaurant_107,Grocery Store,Risk 3 (Low),3909 Main St,Chicago,IL,60603,L1062877,2016-02-02,101,1,1,9
+108,Restaurant_108,Restaurant,Risk 3 (Low),9589 Main St,Chicago,IL,60642,L2790917,2024-01-18,39,1,0,1
+109,Restaurant_109,Restaurant,Risk 3 (Low),1960 Main St,Chicago,IL,60676,L6488913,2019-04-30,188,0,1,6
+110,Restaurant_110,Grocery Store,Risk 1 (High),2462 Main St,Chicago,IL,60650,L9846802,2015-07-03,121,1,1,9
+111,Restaurant_111,Restaurant,Risk 1 (High),6758 Main St,Chicago,IL,60630,L3648472,2022-01-02,98,1,0,3
+112,Restaurant_112,Bakery,Risk 3 (Low),4136 Main St,Chicago,IL,60664,L6730145,2018-02-26,180,0,1,7
+113,Restaurant_113,Grocery Store,Risk 1 (High),3472 Main St,Chicago,IL,60614,L7349184,2020-12-19,165,1,0,4
+114,Restaurant_114,Restaurant,Risk 3 (Low),2505 Main St,Chicago,IL,60656,L4538024,2020-06-04,20,0,1,4
+115,Restaurant_115,Cafe,Risk 2 (Medium),3297 Main St,Chicago,IL,60674,L5300641,2017-01-14,194,1,0,8
+116,Restaurant_116,Bakery,Risk 1 (High),1292 Main St,Chicago,IL,60630,L5070995,2019-08-19,131,1,0,5
+117,Restaurant_117,Restaurant,Risk 3 (Low),3587 Main St,Chicago,IL,60656,L3186441,2017-03-21,147,1,1,8
+118,Restaurant_118,Bakery,Risk 2 (Medium),6880 Main St,Chicago,IL,60609,L3626612,2020-10-27,96,0,1,4
+119,Restaurant_119,Food Truck,Risk 3 (Low),7696 Main St,Chicago,IL,60613,L3756651,2017-10-24,20,0,1,7
+120,Restaurant_120,Grocery Store,Risk 1 (High),1384 Main St,Chicago,IL,60674,L4744869,2022-01-03,197,0,0,3
+121,Restaurant_121,Grocery Store,Risk 2 (Medium),8546 Main St,Chicago,IL,60642,L5802001,2019-11-07,36,0,1,5
+122,Restaurant_122,Restaurant,Risk 1 (High),3914 Main St,Chicago,IL,60638,L4670941,2018-03-03,108,0,0,7
+123,Restaurant_123,Cafe,Risk 2 (Medium),1789 Main St,Chicago,IL,60633,L8033432,2019-07-10,167,1,1,5
+124,Restaurant_124,Restaurant,Risk 3 (Low),8480 Main St,Chicago,IL,60688,L4924421,2021-07-13,84,1,0,3
+125,Restaurant_125,Bakery,Risk 1 (High),6449 Main St,Chicago,IL,60647,L3595745,2020-04-04,24,0,1,5
+126,Restaurant_126,Cafe,Risk 3 (Low),5963 Main St,Chicago,IL,60664,L9819947,2016-01-19,98,1,0,9
+127,Restaurant_127,Bakery,Risk 2 (Medium),8114 Main St,Chicago,IL,60696,L8003740,2016-10-08,90,0,0,8
+128,Restaurant_128,Food Truck,Risk 2 (Medium),5414 Main St,Chicago,IL,60620,L6435863,2015-09-08,31,0,1,9
+129,Restaurant_129,Bakery,Risk 3 (Low),6169 Main St,Chicago,IL,60649,L4657969,2022-08-15,58,1,0,2
+130,Restaurant_130,Food Truck,Risk 3 (Low),1724 Main St,Chicago,IL,60667,L2587353,2021-11-09,40,1,1,3
+131,Restaurant_131,Grocery Store,Risk 1 (High),5750 Main St,Chicago,IL,60608,L3065644,2023-05-29,54,0,1,2
+132,Restaurant_132,Grocery Store,Risk 1 (High),1457 Main St,Chicago,IL,60696,L2959542,2022-01-05,162,0,1,3
+133,Restaurant_133,Grocery Store,Risk 3 (Low),4728 Main St,Chicago,IL,60618,L1879141,2024-06-20,75,1,1,0
+134,Restaurant_134,Cafe,Risk 2 (Medium),4697 Main St,Chicago,IL,60655,L2967089,2018-10-02,61,0,0,6
+135,Restaurant_135,Bakery,Risk 2 (Medium),2378 Main St,Chicago,IL,60603,L9770516,2020-06-23,92,0,1,4
+136,Restaurant_136,Grocery Store,Risk 3 (Low),8576 Main St,Chicago,IL,60668,L3424714,2022-09-23,47,1,1,2
+137,Restaurant_137,Grocery Store,Risk 2 (Medium),5969 Main St,Chicago,IL,60654,L6556211,2017-05-29,22,0,0,8
+138,Restaurant_138,Cafe,Risk 1 (High),6948 Main St,Chicago,IL,60622,L1340331,2020-08-24,51,0,0,4
+139,Restaurant_139,Cafe,Risk 2 (Medium),2159 Main St,Chicago,IL,60640,L6352243,2025-03-21,164,1,1,0
+140,Restaurant_140,Cafe,Risk 1 (High),8094 Main St,Chicago,IL,60699,L3702503,2022-02-07,187,1,0,3
+141,Restaurant_141,Grocery Store,Risk 1 (High),1883 Main St,Chicago,IL,60683,L7130084,2022-06-23,174,0,1,2
+142,Restaurant_142,Bakery,Risk 3 (Low),3485 Main St,Chicago,IL,60632,L5683016,2018-03-27,86,1,1,7
+143,Restaurant_143,Food Truck,Risk 1 (High),8271 Main St,Chicago,IL,60627,L6675256,2016-12-26,103,1,0,8
+144,Restaurant_144,Restaurant,Risk 1 (High),8010 Main St,Chicago,IL,60695,L2864335,2019-03-06,116,0,0,6
+145,Restaurant_145,Cafe,Risk 3 (Low),967 Main St,Chicago,IL,60663,L2805740,2021-12-15,53,1,0,3
+146,Restaurant_146,Food Truck,Risk 3 (Low),543 Main St,Chicago,IL,60644,L2639796,2024-02-29,70,1,1,1
+147,Restaurant_147,Bakery,Risk 2 (Medium),9251 Main St,Chicago,IL,60689,L3501346,2019-10-24,38,0,1,5
+148,Restaurant_148,Restaurant,Risk 2 (Medium),1748 Main St,Chicago,IL,60602,L1874849,2021-04-16,39,1,1,4
+149,Restaurant_149,Food Truck,Risk 2 (Medium),4318 Main St,Chicago,IL,60612,L5205434,2024-06-20,153,0,1,0
+150,Restaurant_150,Cafe,Risk 2 (Medium),4749 Main St,Chicago,IL,60698,L5144446,2021-06-29,58,0,0,3
+151,Restaurant_151,Grocery Store,Risk 2 (Medium),9508 Main St,Chicago,IL,60645,L8350760,2016-07-15,85,0,1,8
+152,Restaurant_152,Cafe,Risk 2 (Medium),3137 Main St,Chicago,IL,60658,L8738506,2021-06-25,34,1,0,3
+153,Restaurant_153,Bakery,Risk 2 (Medium),5638 Main St,Chicago,IL,60616,L4737881,2019-11-10,107,1,1,5
+154,Restaurant_154,Bakery,Risk 3 (Low),6494 Main St,Chicago,IL,60635,L4066865,2017-09-22,124,0,1,7
+155,Restaurant_155,Grocery Store,Risk 3 (Low),9456 Main St,Chicago,IL,60603,L6592770,2015-10-19,58,1,0,9
+156,Restaurant_156,Food Truck,Risk 2 (Medium),1228 Main St,Chicago,IL,60610,L7752945,2019-02-08,172,0,1,6
+157,Restaurant_157,Food Truck,Risk 1 (High),367 Main St,Chicago,IL,60665,L7831176,2018-08-24,175,1,1,6
+158,Restaurant_158,Cafe,Risk 3 (Low),4401 Main St,Chicago,IL,60605,L5541873,2018-02-19,110,1,0,7
+159,Restaurant_159,Grocery Store,Risk 2 (Medium),9549 Main St,Chicago,IL,60682,L3591353,2018-08-30,57,1,0,6
+160,Restaurant_160,Cafe,Risk 1 (High),9468 Main St,Chicago,IL,60645,L8899396,2015-07-07,156,1,0,9
+161,Restaurant_161,Food Truck,Risk 2 (Medium),5960 Main St,Chicago,IL,60653,L8495544,2023-12-18,195,0,1,1
+162,Restaurant_162,Cafe,Risk 3 (Low),9036 Main St,Chicago,IL,60656,L7156849,2023-08-19,44,0,1,1
+163,Restaurant_163,Food Truck,Risk 2 (Medium),5206 Main St,Chicago,IL,60613,L1354650,2019-03-24,105,1,0,6
+164,Restaurant_164,Cafe,Risk 3 (Low),3511 Main St,Chicago,IL,60603,L2822998,2020-07-08,41,1,0,4
+165,Restaurant_165,Grocery Store,Risk 2 (Medium),4613 Main St,Chicago,IL,60606,L2277339,2021-01-18,121,1,1,4
+166,Restaurant_166,Grocery Store,Risk 3 (Low),6899 Main St,Chicago,IL,60661,L5180069,2024-05-24,197,0,1,1
+167,Restaurant_167,Bakery,Risk 1 (High),870 Main St,Chicago,IL,60668,L3235462,2016-06-13,72,0,0,8
+168,Restaurant_168,Bakery,Risk 1 (High),2837 Main St,Chicago,IL,60633,L1493143,2019-10-07,165,0,1,5
+169,Restaurant_169,Restaurant,Risk 3 (Low),4068 Main St,Chicago,IL,60679,L4655007,2020-05-10,114,0,1,5
+170,Restaurant_170,Restaurant,Risk 1 (High),4073 Main St,Chicago,IL,60631,L9035433,2025-02-21,171,0,0,0
+171,Restaurant_171,Food Truck,Risk 2 (Medium),319 Main St,Chicago,IL,60648,L8342405,2019-06-17,153,1,1,5
+172,Restaurant_172,Food Truck,Risk 2 (Medium),2369 Main St,Chicago,IL,60647,L8695344,2021-06-03,129,1,1,3
+173,Restaurant_173,Restaurant,Risk 3 (Low),5434 Main St,Chicago,IL,60672,L3422746,2015-06-02,172,0,0,10
+174,Restaurant_174,Grocery Store,Risk 2 (Medium),2483 Main St,Chicago,IL,60636,L3349870,2022-02-04,147,1,1,3
+175,Restaurant_175,Food Truck,Risk 1 (High),2542 Main St,Chicago,IL,60614,L2020714,2020-04-04,32,1,0,5
+176,Restaurant_176,Bakery,Risk 1 (High),8422 Main St,Chicago,IL,60680,L8245411,2024-10-01,158,0,1,0
+177,Restaurant_177,Bakery,Risk 3 (Low),1775 Main St,Chicago,IL,60666,L9347877,2017-11-19,106,0,0,7
+178,Restaurant_178,Cafe,Risk 1 (High),8331 Main St,Chicago,IL,60639,L6014537,2022-08-15,32,0,1,2
+179,Restaurant_179,Cafe,Risk 1 (High),3595 Main St,Chicago,IL,60698,L3349075,2018-11-02,193,0,0,6
+180,Restaurant_180,Bakery,Risk 1 (High),1089 Main St,Chicago,IL,60651,L4827149,2016-06-25,122,1,0,8
+181,Restaurant_181,Restaurant,Risk 1 (High),6739 Main St,Chicago,IL,60656,L4117982,2020-04-19,160,1,0,5
+182,Restaurant_182,Food Truck,Risk 3 (Low),3915 Main St,Chicago,IL,60633,L4975403,2015-11-27,40,0,1,9
+183,Restaurant_183,Grocery Store,Risk 1 (High),9668 Main St,Chicago,IL,60674,L7580898,2017-12-26,139,0,0,7
+184,Restaurant_184,Bakery,Risk 2 (Medium),1126 Main St,Chicago,IL,60680,L8742643,2017-04-15,24,0,1,8
+185,Restaurant_185,Food Truck,Risk 1 (High),7469 Main St,Chicago,IL,60679,L8560258,2024-06-18,85,1,0,0
+186,Restaurant_186,Food Truck,Risk 2 (Medium),2016 Main St,Chicago,IL,60676,L4460757,2021-02-28,136,1,1,4
+187,Restaurant_187,Bakery,Risk 1 (High),1082 Main St,Chicago,IL,60660,L2983910,2017-04-20,181,0,0,8
+188,Restaurant_188,Restaurant,Risk 3 (Low),9451 Main St,Chicago,IL,60629,L9260288,2018-05-13,138,0,0,7
+189,Restaurant_189,Restaurant,Risk 3 (Low),7607 Main St,Chicago,IL,60626,L9685663,2017-01-30,100,0,0,8
+190,Restaurant_190,Cafe,Risk 3 (Low),6861 Main St,Chicago,IL,60685,L6048933,2021-10-02,102,0,0,3
+191,Restaurant_191,Food Truck,Risk 2 (Medium),3121 Main St,Chicago,IL,60656,L1417561,2023-07-16,185,0,1,1
+192,Restaurant_192,Grocery Store,Risk 3 (Low),3331 Main St,Chicago,IL,60646,L4332262,2016-10-04,28,0,0,8
+193,Restaurant_193,Cafe,Risk 3 (Low),3942 Main St,Chicago,IL,60691,L8308503,2023-10-13,139,1,0,1
+194,Restaurant_194,Restaurant,Risk 1 (High),9928 Main St,Chicago,IL,60661,L8330373,2018-09-13,178,0,1,6
+195,Restaurant_195,Cafe,Risk 3 (Low),2416 Main St,Chicago,IL,60650,L4314757,2024-12-29,193,0,0,0
+196,Restaurant_196,Grocery Store,Risk 1 (High),1880 Main St,Chicago,IL,60696,L7743294,2016-10-14,69,1,0,8
+197,Restaurant_197,Restaurant,Risk 2 (Medium),5070 Main St,Chicago,IL,60640,L5582691,2019-02-15,181,0,0,6
+198,Restaurant_198,Bakery,Risk 2 (Medium),9842 Main St,Chicago,IL,60669,L6998222,2018-12-07,77,1,0,6
+199,Restaurant_199,Food Truck,Risk 2 (Medium),1890 Main St,Chicago,IL,60656,L8836319,2018-07-04,101,1,0,6
+200,Restaurant_200,Bakery,Risk 1 (High),364 Main St,Chicago,IL,60628,L7834917,2020-09-27,180,1,1,4
+201,Restaurant_201,Cafe,Risk 1 (High),6768 Main St,Chicago,IL,60691,L3735396,2022-06-03,21,1,0,2
+202,Restaurant_202,Cafe,Risk 1 (High),6028 Main St,Chicago,IL,60611,L6191613,2023-11-08,176,1,0,1
+203,Restaurant_203,Grocery Store,Risk 1 (High),3540 Main St,Chicago,IL,60683,L4866222,2025-01-20,46,0,0,0
+204,Restaurant_204,Bakery,Risk 2 (Medium),2598 Main St,Chicago,IL,60655,L3055040,2023-08-04,118,1,1,1
+205,Restaurant_205,Food Truck,Risk 3 (Low),2960 Main St,Chicago,IL,60623,L2366470,2016-10-24,70,1,1,8
+206,Restaurant_206,Restaurant,Risk 2 (Medium),4492 Main St,Chicago,IL,60617,L1738014,2016-01-02,41,1,1,9
+207,Restaurant_207,Cafe,Risk 1 (High),1362 Main St,Chicago,IL,60688,L5971361,2023-02-13,159,0,1,2
+208,Restaurant_208,Grocery Store,Risk 3 (Low),4168 Main St,Chicago,IL,60653,L1962706,2020-04-14,193,0,1,5
+209,Restaurant_209,Grocery Store,Risk 1 (High),4496 Main St,Chicago,IL,60615,L7657278,2024-12-19,64,0,1,0
+210,Restaurant_210,Bakery,Risk 3 (Low),34 Main St,Chicago,IL,60611,L8856782,2017-07-03,72,1,0,7
+211,Restaurant_211,Food Truck,Risk 2 (Medium),8056 Main St,Chicago,IL,60605,L3201565,2018-03-29,58,0,1,7
+212,Restaurant_212,Bakery,Risk 1 (High),2546 Main St,Chicago,IL,60687,L9866409,2018-11-29,157,0,0,6
+213,Restaurant_213,Food Truck,Risk 2 (Medium),8445 Main St,Chicago,IL,60656,L9058273,2017-01-28,140,0,1,8
+214,Restaurant_214,Grocery Store,Risk 2 (Medium),9388 Main St,Chicago,IL,60663,L9186973,2024-10-20,140,1,0,0
+215,Restaurant_215,Bakery,Risk 3 (Low),1907 Main St,Chicago,IL,60654,L2784245,2018-12-05,52,1,0,6
+216,Restaurant_216,Grocery Store,Risk 3 (Low),6071 Main St,Chicago,IL,60679,L7977590,2017-07-22,192,1,0,7
+217,Restaurant_217,Food Truck,Risk 1 (High),3055 Main St,Chicago,IL,60691,L1414869,2018-03-07,166,1,0,7
+218,Restaurant_218,Restaurant,Risk 2 (Medium),4611 Main St,Chicago,IL,60681,L1440051,2021-01-27,85,1,0,4
+219,Restaurant_219,Cafe,Risk 2 (Medium),8845 Main St,Chicago,IL,60610,L6200669,2022-06-13,33,0,0,2
+220,Restaurant_220,Cafe,Risk 2 (Medium),2040 Main St,Chicago,IL,60618,L8500457,2024-10-04,57,1,1,0
+221,Restaurant_221,Food Truck,Risk 2 (Medium),4401 Main St,Chicago,IL,60618,L2719789,2019-12-06,48,1,0,5
+222,Restaurant_222,Bakery,Risk 1 (High),3832 Main St,Chicago,IL,60658,L3020659,2023-10-12,29,0,1,1
+223,Restaurant_223,Grocery Store,Risk 1 (High),9042 Main St,Chicago,IL,60669,L2534934,2016-05-18,40,1,0,9
+224,Restaurant_224,Grocery Store,Risk 3 (Low),3304 Main St,Chicago,IL,60641,L6185492,2020-01-13,84,1,0,5
+225,Restaurant_225,Restaurant,Risk 2 (Medium),439 Main St,Chicago,IL,60693,L3859978,2021-10-25,121,1,1,3
+226,Restaurant_226,Restaurant,Risk 2 (Medium),3706 Main St,Chicago,IL,60634,L6742912,2019-08-02,103,1,0,5
+227,Restaurant_227,Restaurant,Risk 2 (Medium),9678 Main St,Chicago,IL,60659,L4031096,2023-01-15,152,1,0,2
+228,Restaurant_228,Restaurant,Risk 1 (High),2978 Main St,Chicago,IL,60647,L2551642,2020-08-21,178,0,0,4
+229,Restaurant_229,Food Truck,Risk 1 (High),3489 Main St,Chicago,IL,60656,L9833212,2020-11-29,114,0,0,4
+230,Restaurant_230,Food Truck,Risk 3 (Low),5373 Main St,Chicago,IL,60647,L4985017,2021-05-27,119,0,1,4
+231,Restaurant_231,Bakery,Risk 1 (High),6778 Main St,Chicago,IL,60675,L9764189,2020-08-23,29,1,1,4
+232,Restaurant_232,Bakery,Risk 1 (High),6575 Main St,Chicago,IL,60656,L3238146,2022-09-30,112,1,1,2
+233,Restaurant_233,Bakery,Risk 2 (Medium),7123 Main St,Chicago,IL,60664,L6230001,2025-03-01,118,0,0,0
+234,Restaurant_234,Food Truck,Risk 2 (Medium),2161 Main St,Chicago,IL,60606,L4172625,2021-09-07,98,1,0,3
+235,Restaurant_235,Bakery,Risk 1 (High),6597 Main St,Chicago,IL,60665,L8427927,2023-03-05,125,0,1,2
+236,Restaurant_236,Food Truck,Risk 3 (Low),2189 Main St,Chicago,IL,60601,L2159000,2016-09-21,63,0,0,8
+237,Restaurant_237,Restaurant,Risk 3 (Low),2823 Main St,Chicago,IL,60698,L6576247,2024-03-17,93,1,0,1
+238,Restaurant_238,Cafe,Risk 2 (Medium),8812 Main St,Chicago,IL,60623,L9844467,2024-02-22,128,1,0,1
+239,Restaurant_239,Bakery,Risk 2 (Medium),1863 Main St,Chicago,IL,60686,L1305076,2021-04-19,96,1,0,4
+240,Restaurant_240,Grocery Store,Risk 1 (High),2996 Main St,Chicago,IL,60659,L4644032,2019-07-20,156,1,1,5
+241,Restaurant_241,Restaurant,Risk 2 (Medium),1979 Main St,Chicago,IL,60636,L7060472,2021-10-11,99,1,0,3
+242,Restaurant_242,Grocery Store,Risk 2 (Medium),3213 Main St,Chicago,IL,60678,L3417013,2016-10-17,29,1,1,8
+243,Restaurant_243,Bakery,Risk 3 (Low),6664 Main St,Chicago,IL,60697,L6286413,2016-03-14,131,1,1,9
+244,Restaurant_244,Cafe,Risk 2 (Medium),8343 Main St,Chicago,IL,60607,L9644506,2018-12-06,168,0,1,6
+245,Restaurant_245,Cafe,Risk 2 (Medium),3200 Main St,Chicago,IL,60616,L1337396,2018-11-06,159,0,0,6
+246,Restaurant_246,Restaurant,Risk 3 (Low),1382 Main St,Chicago,IL,60610,L5333401,2016-08-12,132,1,0,8
+247,Restaurant_247,Grocery Store,Risk 1 (High),2855 Main St,Chicago,IL,60696,L3538569,2018-07-06,72,1,1,6
+248,Restaurant_248,Restaurant,Risk 2 (Medium),4228 Main St,Chicago,IL,60699,L6329014,2019-06-03,24,0,1,5
+249,Restaurant_249,Food Truck,Risk 2 (Medium),6746 Main St,Chicago,IL,60658,L1670749,2019-12-31,162,1,1,5
+250,Restaurant_250,Grocery Store,Risk 2 (Medium),1570 Main St,Chicago,IL,60685,L5325884,2017-10-01,75,0,0,7
+251,Restaurant_251,Bakery,Risk 1 (High),3056 Main St,Chicago,IL,60691,L6811244,2016-02-05,22,1,0,9
+252,Restaurant_252,Restaurant,Risk 1 (High),381 Main St,Chicago,IL,60699,L2525034,2016-07-21,149,1,0,8
+253,Restaurant_253,Restaurant,Risk 1 (High),6675 Main St,Chicago,IL,60684,L7493779,2021-01-17,176,1,0,4
+254,Restaurant_254,Grocery Store,Risk 2 (Medium),2970 Main St,Chicago,IL,60684,L8770488,2019-05-06,91,0,1,6
+255,Restaurant_255,Food Truck,Risk 1 (High),5411 Main St,Chicago,IL,60696,L3632659,2024-10-13,103,0,1,0
+256,Restaurant_256,Bakery,Risk 1 (High),8521 Main St,Chicago,IL,60686,L5215943,2017-09-17,108,1,0,7
+257,Restaurant_257,Food Truck,Risk 1 (High),5076 Main St,Chicago,IL,60601,L6401709,2017-12-26,60,1,1,7
+258,Restaurant_258,Restaurant,Risk 3 (Low),2977 Main St,Chicago,IL,60663,L5507725,2018-02-11,146,0,1,7
+259,Restaurant_259,Food Truck,Risk 1 (High),6633 Main St,Chicago,IL,60676,L5169315,2024-11-05,54,1,0,0
+260,Restaurant_260,Restaurant,Risk 1 (High),5632 Main St,Chicago,IL,60667,L7518201,2024-10-22,109,0,0,0
+261,Restaurant_261,Food Truck,Risk 3 (Low),8979 Main St,Chicago,IL,60663,L8606372,2023-03-08,99,0,1,2
+262,Restaurant_262,Food Truck,Risk 1 (High),603 Main St,Chicago,IL,60634,L3042414,2020-11-12,120,1,0,4
+263,Restaurant_263,Cafe,Risk 1 (High),1404 Main St,Chicago,IL,60632,L6167386,2015-08-25,111,0,0,9
+264,Restaurant_264,Cafe,Risk 2 (Medium),4494 Main St,Chicago,IL,60634,L2506659,2019-04-21,129,0,0,6
+265,Restaurant_265,Food Truck,Risk 2 (Medium),6957 Main St,Chicago,IL,60602,L5244358,2015-07-25,70,0,1,9
+266,Restaurant_266,Bakery,Risk 2 (Medium),6493 Main St,Chicago,IL,60632,L5149907,2016-10-29,170,0,0,8
+267,Restaurant_267,Bakery,Risk 3 (Low),4460 Main St,Chicago,IL,60667,L2110752,2023-08-13,147,0,0,1
+268,Restaurant_268,Restaurant,Risk 2 (Medium),7156 Main St,Chicago,IL,60683,L3824313,2015-10-13,56,1,0,9
+269,Restaurant_269,Grocery Store,Risk 3 (Low),8393 Main St,Chicago,IL,60659,L1436027,2020-01-29,122,0,1,5
+270,Restaurant_270,Cafe,Risk 3 (Low),3519 Main St,Chicago,IL,60686,L3527323,2019-10-31,108,1,1,5
+271,Restaurant_271,Cafe,Risk 2 (Medium),9755 Main St,Chicago,IL,60610,L5222756,2017-09-28,114,0,0,7
+272,Restaurant_272,Grocery Store,Risk 1 (High),3591 Main St,Chicago,IL,60691,L7400300,2020-12-03,146,0,1,4
+273,Restaurant_273,Cafe,Risk 2 (Medium),7311 Main St,Chicago,IL,60689,L7698422,2022-01-02,139,0,1,3
+274,Restaurant_274,Restaurant,Risk 3 (Low),8387 Main St,Chicago,IL,60638,L7715135,2023-09-05,44,1,0,1
+275,Restaurant_275,Bakery,Risk 2 (Medium),8397 Main St,Chicago,IL,60644,L7152939,2016-09-16,196,1,0,8
+276,Restaurant_276,Restaurant,Risk 1 (High),3513 Main St,Chicago,IL,60633,L1839598,2018-08-16,49,0,1,6
+277,Restaurant_277,Bakery,Risk 2 (Medium),1098 Main St,Chicago,IL,60694,L7479056,2020-09-26,25,0,1,4
+278,Restaurant_278,Cafe,Risk 2 (Medium),2323 Main St,Chicago,IL,60671,L9194537,2016-10-04,162,1,0,8
+279,Restaurant_279,Bakery,Risk 2 (Medium),3541 Main St,Chicago,IL,60608,L2994782,2017-02-16,120,1,1,8
+280,Restaurant_280,Bakery,Risk 1 (High),6705 Main St,Chicago,IL,60639,L7578680,2017-10-03,110,0,1,7
+281,Restaurant_281,Food Truck,Risk 2 (Medium),5303 Main St,Chicago,IL,60693,L2951922,2017-02-04,25,1,1,8
+282,Restaurant_282,Cafe,Risk 2 (Medium),7361 Main St,Chicago,IL,60690,L9851560,2025-04-16,39,1,1,0
+283,Restaurant_283,Restaurant,Risk 2 (Medium),2923 Main St,Chicago,IL,60696,L6626457,2017-09-20,158,1,1,7
+284,Restaurant_284,Restaurant,Risk 3 (Low),9488 Main St,Chicago,IL,60686,L7933251,2016-06-18,165,0,0,8
+285,Restaurant_285,Bakery,Risk 3 (Low),263 Main St,Chicago,IL,60691,L5079910,2017-02-05,46,0,1,8
+286,Restaurant_286,Cafe,Risk 3 (Low),2762 Main St,Chicago,IL,60676,L4618333,2021-01-27,69,1,1,4
+287,Restaurant_287,Restaurant,Risk 3 (Low),6272 Main St,Chicago,IL,60635,L6188531,2016-05-03,195,0,0,9
+288,Restaurant_288,Cafe,Risk 2 (Medium),5640 Main St,Chicago,IL,60660,L5620045,2022-04-24,65,1,1,3
+289,Restaurant_289,Cafe,Risk 1 (High),4016 Main St,Chicago,IL,60604,L9499749,2017-02-27,138,0,0,8
+290,Restaurant_290,Cafe,Risk 3 (Low),5016 Main St,Chicago,IL,60688,L9845858,2023-11-15,169,1,0,1
+291,Restaurant_291,Grocery Store,Risk 2 (Medium),5802 Main St,Chicago,IL,60622,L4405805,2019-11-02,110,0,0,5
+292,Restaurant_292,Food Truck,Risk 1 (High),2830 Main St,Chicago,IL,60689,L9194153,2021-09-22,77,0,1,3
+293,Restaurant_293,Grocery Store,Risk 3 (Low),1889 Main St,Chicago,IL,60627,L5043016,2019-02-05,83,0,1,6
+294,Restaurant_294,Restaurant,Risk 2 (Medium),8673 Main St,Chicago,IL,60605,L4659773,2019-09-11,161,1,0,5
+295,Restaurant_295,Cafe,Risk 1 (High),6244 Main St,Chicago,IL,60655,L4753511,2017-10-25,119,1,0,7
+296,Restaurant_296,Bakery,Risk 2 (Medium),703 Main St,Chicago,IL,60641,L8363290,2018-02-11,46,0,1,7
+297,Restaurant_297,Restaurant,Risk 3 (Low),1525 Main St,Chicago,IL,60680,L4806008,2022-07-22,190,0,0,2
+298,Restaurant_298,Cafe,Risk 2 (Medium),7961 Main St,Chicago,IL,60620,L3734347,2016-06-21,125,0,0,8
+299,Restaurant_299,Grocery Store,Risk 2 (Medium),599 Main St,Chicago,IL,60657,L3520270,2022-02-16,57,1,0,3
+300,Restaurant_300,Cafe,Risk 1 (High),8763 Main St,Chicago,IL,60633,L3453264,2018-08-12,165,1,1,6
+301,Restaurant_301,Grocery Store,Risk 1 (High),5090 Main St,Chicago,IL,60646,L3910050,2022-11-16,191,0,1,2
+302,Restaurant_302,Cafe,Risk 3 (Low),8819 Main St,Chicago,IL,60654,L1828721,2016-12-31,42,0,0,8
+303,Restaurant_303,Bakery,Risk 1 (High),4052 Main St,Chicago,IL,60658,L1882579,2018-07-19,164,1,0,6
+304,Restaurant_304,Cafe,Risk 1 (High),5404 Main St,Chicago,IL,60605,L1150133,2022-08-03,38,0,0,2
+305,Restaurant_305,Food Truck,Risk 3 (Low),3997 Main St,Chicago,IL,60601,L7368952,2021-01-02,159,1,1,4
+306,Restaurant_306,Cafe,Risk 1 (High),8367 Main St,Chicago,IL,60644,L5346222,2019-04-04,198,0,1,6
+307,Restaurant_307,Restaurant,Risk 2 (Medium),3216 Main St,Chicago,IL,60694,L1307771,2016-12-17,166,0,0,8
+308,Restaurant_308,Restaurant,Risk 3 (Low),2768 Main St,Chicago,IL,60692,L4674936,2015-10-08,23,1,1,9
+309,Restaurant_309,Restaurant,Risk 2 (Medium),956 Main St,Chicago,IL,60612,L5832638,2019-11-23,139,0,0,5
+310,Restaurant_310,Restaurant,Risk 2 (Medium),7940 Main St,Chicago,IL,60656,L9781904,2019-12-06,113,0,1,5
+311,Restaurant_311,Food Truck,Risk 3 (Low),5966 Main St,Chicago,IL,60629,L7573116,2015-08-08,65,0,0,9
+312,Restaurant_312,Food Truck,Risk 2 (Medium),4867 Main St,Chicago,IL,60670,L5268360,2020-06-01,91,0,0,4
+313,Restaurant_313,Bakery,Risk 3 (Low),5165 Main St,Chicago,IL,60611,L3856831,2017-11-14,47,0,0,7
+314,Restaurant_314,Grocery Store,Risk 2 (Medium),7541 Main St,Chicago,IL,60621,L6417507,2020-10-11,41,0,0,4
+315,Restaurant_315,Food Truck,Risk 2 (Medium),7924 Main St,Chicago,IL,60667,L8593737,2021-04-20,22,1,0,4
+316,Restaurant_316,Grocery Store,Risk 2 (Medium),6275 Main St,Chicago,IL,60672,L5082497,2023-12-28,179,0,0,1
+317,Restaurant_317,Food Truck,Risk 3 (Low),6542 Main St,Chicago,IL,60619,L6213772,2023-04-19,20,0,0,2
+318,Restaurant_318,Food Truck,Risk 2 (Medium),6662 Main St,Chicago,IL,60666,L1850654,2022-01-24,183,1,1,3
+319,Restaurant_319,Cafe,Risk 2 (Medium),605 Main St,Chicago,IL,60624,L8104899,2017-07-02,125,0,0,7
+320,Restaurant_320,Bakery,Risk 1 (High),5833 Main St,Chicago,IL,60634,L2288092,2022-09-16,187,1,1,2
+321,Restaurant_321,Grocery Store,Risk 3 (Low),2987 Main St,Chicago,IL,60611,L2464508,2025-01-20,179,0,0,0
+322,Restaurant_322,Food Truck,Risk 3 (Low),1999 Main St,Chicago,IL,60671,L9298968,2023-05-12,148,1,0,2
+323,Restaurant_323,Food Truck,Risk 3 (Low),9347 Main St,Chicago,IL,60681,L7739343,2021-01-08,129,0,1,4
+324,Restaurant_324,Restaurant,Risk 2 (Medium),8713 Main St,Chicago,IL,60654,L4052763,2023-09-07,115,1,1,1
+325,Restaurant_325,Bakery,Risk 3 (Low),195 Main St,Chicago,IL,60610,L6990956,2023-04-05,26,1,1,2
+326,Restaurant_326,Grocery Store,Risk 1 (High),5400 Main St,Chicago,IL,60666,L5149604,2017-10-04,50,1,1,7
+327,Restaurant_327,Bakery,Risk 3 (Low),9317 Main St,Chicago,IL,60632,L4326565,2015-06-21,104,0,1,9
+328,Restaurant_328,Restaurant,Risk 3 (Low),8215 Main St,Chicago,IL,60646,L4235139,2023-07-21,104,0,1,1
+329,Restaurant_329,Bakery,Risk 1 (High),2447 Main St,Chicago,IL,60682,L5910097,2020-02-19,96,1,0,5
+330,Restaurant_330,Restaurant,Risk 3 (Low),4016 Main St,Chicago,IL,60661,L8737190,2020-01-06,165,0,1,5
+331,Restaurant_331,Bakery,Risk 1 (High),268 Main St,Chicago,IL,60671,L4876028,2023-03-14,194,1,1,2
+332,Restaurant_332,Grocery Store,Risk 1 (High),6807 Main St,Chicago,IL,60644,L3110743,2018-05-26,154,1,0,7
+333,Restaurant_333,Grocery Store,Risk 1 (High),2753 Main St,Chicago,IL,60649,L4424110,2022-06-24,59,0,1,2
+334,Restaurant_334,Grocery Store,Risk 2 (Medium),8407 Main St,Chicago,IL,60669,L2860528,2016-01-16,49,1,0,9
+335,Restaurant_335,Bakery,Risk 1 (High),4901 Main St,Chicago,IL,60661,L9383009,2016-04-03,199,0,1,9
+336,Restaurant_336,Food Truck,Risk 3 (Low),9369 Main St,Chicago,IL,60601,L9052820,2021-01-20,155,1,1,4
+337,Restaurant_337,Cafe,Risk 3 (Low),6141 Main St,Chicago,IL,60628,L2637548,2021-06-05,86,1,0,3
+338,Restaurant_338,Grocery Store,Risk 1 (High),3737 Main St,Chicago,IL,60638,L2123781,2024-09-19,41,1,1,0
+339,Restaurant_339,Grocery Store,Risk 3 (Low),3081 Main St,Chicago,IL,60628,L8305919,2019-05-06,21,0,0,6
+340,Restaurant_340,Restaurant,Risk 3 (Low),575 Main St,Chicago,IL,60679,L4538080,2020-11-14,93,0,1,4
+341,Restaurant_341,Bakery,Risk 1 (High),676 Main St,Chicago,IL,60663,L7977396,2015-12-11,190,0,0,9
+342,Restaurant_342,Grocery Store,Risk 1 (High),406 Main St,Chicago,IL,60632,L3538882,2019-10-27,48,0,0,5
+343,Restaurant_343,Food Truck,Risk 2 (Medium),2318 Main St,Chicago,IL,60619,L5954707,2019-11-04,96,0,1,5
+344,Restaurant_344,Grocery Store,Risk 3 (Low),4448 Main St,Chicago,IL,60652,L9399164,2015-08-31,181,0,0,9
+345,Restaurant_345,Cafe,Risk 2 (Medium),615 Main St,Chicago,IL,60686,L3183807,2022-12-26,27,1,0,2
+346,Restaurant_346,Restaurant,Risk 3 (Low),651 Main St,Chicago,IL,60658,L8608601,2016-05-16,89,0,0,9
+347,Restaurant_347,Bakery,Risk 3 (Low),6376 Main St,Chicago,IL,60678,L8364908,2024-07-16,150,0,1,0
+348,Restaurant_348,Bakery,Risk 3 (Low),9374 Main St,Chicago,IL,60672,L6878206,2021-06-06,69,0,1,3
+349,Restaurant_349,Bakery,Risk 2 (Medium),8425 Main St,Chicago,IL,60626,L8386517,2024-12-21,81,0,1,0
+350,Restaurant_350,Food Truck,Risk 2 (Medium),8230 Main St,Chicago,IL,60603,L9219855,2021-01-30,76,0,1,4
+351,Restaurant_351,Restaurant,Risk 1 (High),2294 Main St,Chicago,IL,60665,L6994499,2015-09-24,175,1,1,9
+352,Restaurant_352,Food Truck,Risk 1 (High),9859 Main St,Chicago,IL,60637,L9392552,2022-12-24,119,1,1,2
+353,Restaurant_353,Grocery Store,Risk 3 (Low),1081 Main St,Chicago,IL,60678,L6894705,2017-09-07,130,0,0,7
+354,Restaurant_354,Food Truck,Risk 2 (Medium),8429 Main St,Chicago,IL,60690,L1220890,2018-06-14,161,1,0,6
+355,Restaurant_355,Bakery,Risk 2 (Medium),6056 Main St,Chicago,IL,60644,L4858532,2017-05-10,119,1,0,8
+356,Restaurant_356,Cafe,Risk 2 (Medium),8881 Main St,Chicago,IL,60637,L9275566,2017-09-26,149,1,1,7
+357,Restaurant_357,Grocery Store,Risk 3 (Low),5748 Main St,Chicago,IL,60679,L9006732,2020-10-25,71,1,1,4
+358,Restaurant_358,Bakery,Risk 2 (Medium),9449 Main St,Chicago,IL,60607,L9358873,2020-07-01,51,0,1,4
+359,Restaurant_359,Cafe,Risk 2 (Medium),1458 Main St,Chicago,IL,60616,L7641261,2023-01-16,169,0,0,2
+360,Restaurant_360,Cafe,Risk 2 (Medium),9810 Main St,Chicago,IL,60612,L5504769,2022-02-27,20,1,0,3
+361,Restaurant_361,Grocery Store,Risk 1 (High),3597 Main St,Chicago,IL,60676,L4600962,2023-07-14,107,1,1,1
+362,Restaurant_362,Food Truck,Risk 1 (High),7502 Main St,Chicago,IL,60636,L9027618,2022-01-19,87,1,1,3
+363,Restaurant_363,Restaurant,Risk 3 (Low),7517 Main St,Chicago,IL,60681,L8664904,2022-12-25,50,0,1,2
+364,Restaurant_364,Food Truck,Risk 1 (High),1879 Main St,Chicago,IL,60624,L5298586,2015-07-23,28,1,0,9
+365,Restaurant_365,Cafe,Risk 1 (High),6968 Main St,Chicago,IL,60663,L4981732,2020-04-05,85,0,1,5
+366,Restaurant_366,Bakery,Risk 1 (High),6533 Main St,Chicago,IL,60625,L5408212,2017-11-22,101,1,1,7
+367,Restaurant_367,Restaurant,Risk 2 (Medium),9148 Main St,Chicago,IL,60678,L5529741,2016-01-02,167,0,1,9
+368,Restaurant_368,Bakery,Risk 2 (Medium),2418 Main St,Chicago,IL,60657,L7342235,2019-07-10,120,0,1,5
+369,Restaurant_369,Cafe,Risk 1 (High),8166 Main St,Chicago,IL,60688,L5691690,2021-03-12,58,0,1,4
+370,Restaurant_370,Food Truck,Risk 2 (Medium),7142 Main St,Chicago,IL,60646,L8988841,2018-08-19,122,1,1,6
+371,Restaurant_371,Restaurant,Risk 2 (Medium),6897 Main St,Chicago,IL,60681,L6534998,2023-04-19,89,0,1,2
+372,Restaurant_372,Cafe,Risk 1 (High),298 Main St,Chicago,IL,60670,L6584003,2021-05-08,181,0,1,4
+373,Restaurant_373,Food Truck,Risk 2 (Medium),3223 Main St,Chicago,IL,60659,L8573375,2022-12-13,153,1,0,2
+374,Restaurant_374,Food Truck,Risk 3 (Low),188 Main St,Chicago,IL,60612,L3413627,2016-04-12,142,1,1,9
+375,Restaurant_375,Restaurant,Risk 2 (Medium),2651 Main St,Chicago,IL,60685,L5525089,2016-07-04,72,1,0,8
+376,Restaurant_376,Restaurant,Risk 1 (High),158 Main St,Chicago,IL,60624,L1302719,2016-09-17,42,1,1,8
+377,Restaurant_377,Grocery Store,Risk 3 (Low),809 Main St,Chicago,IL,60613,L9748818,2024-01-18,44,0,0,1
+378,Restaurant_378,Restaurant,Risk 2 (Medium),3167 Main St,Chicago,IL,60652,L8927277,2020-09-23,32,0,0,4
+379,Restaurant_379,Cafe,Risk 2 (Medium),5208 Main St,Chicago,IL,60682,L6273043,2020-05-12,102,0,0,5
+380,Restaurant_380,Grocery Store,Risk 2 (Medium),5078 Main St,Chicago,IL,60653,L1689805,2021-01-20,134,1,0,4
+381,Restaurant_381,Cafe,Risk 3 (Low),4181 Main St,Chicago,IL,60663,L7336337,2024-02-10,31,1,1,1
+382,Restaurant_382,Bakery,Risk 3 (Low),5855 Main St,Chicago,IL,60637,L3273448,2021-12-12,75,1,1,3
+383,Restaurant_383,Bakery,Risk 3 (Low),4125 Main St,Chicago,IL,60669,L1234614,2020-05-06,91,1,0,5
+384,Restaurant_384,Bakery,Risk 3 (Low),5628 Main St,Chicago,IL,60693,L3360022,2022-03-21,26,1,1,3
+385,Restaurant_385,Bakery,Risk 2 (Medium),7596 Main St,Chicago,IL,60618,L8203720,2018-03-11,189,0,0,7
+386,Restaurant_386,Bakery,Risk 3 (Low),5281 Main St,Chicago,IL,60613,L6271057,2018-08-13,135,1,1,6
+387,Restaurant_387,Food Truck,Risk 1 (High),7915 Main St,Chicago,IL,60614,L3721073,2022-11-12,79,1,0,2
+388,Restaurant_388,Food Truck,Risk 2 (Medium),7085 Main St,Chicago,IL,60683,L2276768,2021-05-10,90,0,0,4
+389,Restaurant_389,Cafe,Risk 2 (Medium),8362 Main St,Chicago,IL,60622,L4180515,2016-01-21,137,0,0,9
+390,Restaurant_390,Grocery Store,Risk 3 (Low),6697 Main St,Chicago,IL,60638,L4313898,2016-07-20,171,0,1,8
+391,Restaurant_391,Restaurant,Risk 1 (High),4383 Main St,Chicago,IL,60609,L3823044,2017-03-16,107,1,1,8
+392,Restaurant_392,Cafe,Risk 3 (Low),8484 Main St,Chicago,IL,60602,L7121473,2018-01-24,73,0,0,7
+393,Restaurant_393,Restaurant,Risk 1 (High),1826 Main St,Chicago,IL,60606,L4143265,2015-08-19,79,1,0,9
+394,Restaurant_394,Bakery,Risk 3 (Low),942 Main St,Chicago,IL,60629,L9029035,2019-04-17,116,0,1,6
+395,Restaurant_395,Grocery Store,Risk 2 (Medium),6812 Main St,Chicago,IL,60681,L9982500,2017-09-14,129,1,1,7
+396,Restaurant_396,Cafe,Risk 3 (Low),4892 Main St,Chicago,IL,60675,L3578176,2022-05-12,141,1,1,3
+397,Restaurant_397,Food Truck,Risk 2 (Medium),3210 Main St,Chicago,IL,60660,L1378055,2018-03-09,186,1,0,7
+398,Restaurant_398,Bakery,Risk 1 (High),2766 Main St,Chicago,IL,60662,L1880409,2020-12-25,46,1,1,4
+399,Restaurant_399,Bakery,Risk 2 (Medium),7703 Main St,Chicago,IL,60649,L8176846,2015-09-20,169,0,1,9
+400,Restaurant_400,Bakery,Risk 3 (Low),9083 Main St,Chicago,IL,60636,L8063829,2021-09-04,88,0,1,3
+401,Restaurant_401,Grocery Store,Risk 1 (High),7235 Main St,Chicago,IL,60602,L3701494,2020-01-21,151,1,0,5
+402,Restaurant_402,Restaurant,Risk 3 (Low),4178 Main St,Chicago,IL,60638,L5871425,2021-02-17,130,1,0,4
+403,Restaurant_403,Grocery Store,Risk 2 (Medium),1011 Main St,Chicago,IL,60655,L3937659,2022-11-02,126,1,1,2
+404,Restaurant_404,Bakery,Risk 2 (Medium),7559 Main St,Chicago,IL,60609,L4901847,2021-06-13,48,0,1,3
+405,Restaurant_405,Cafe,Risk 2 (Medium),603 Main St,Chicago,IL,60649,L8497754,2020-04-27,171,1,0,5
+406,Restaurant_406,Restaurant,Risk 2 (Medium),3493 Main St,Chicago,IL,60673,L4670466,2023-01-17,76,0,1,2
+407,Restaurant_407,Food Truck,Risk 2 (Medium),8003 Main St,Chicago,IL,60678,L5115704,2017-10-23,55,0,0,7
+408,Restaurant_408,Food Truck,Risk 1 (High),8425 Main St,Chicago,IL,60614,L5237762,2016-06-20,100,1,0,8
+409,Restaurant_409,Restaurant,Risk 2 (Medium),13 Main St,Chicago,IL,60653,L8426086,2021-06-10,96,1,0,3
+410,Restaurant_410,Cafe,Risk 3 (Low),9568 Main St,Chicago,IL,60640,L1640501,2022-12-31,155,1,0,2
+411,Restaurant_411,Bakery,Risk 3 (Low),6880 Main St,Chicago,IL,60663,L7628778,2021-01-04,141,0,1,4
+412,Restaurant_412,Bakery,Risk 1 (High),4649 Main St,Chicago,IL,60687,L5918045,2018-03-06,43,1,1,7
+413,Restaurant_413,Restaurant,Risk 2 (Medium),3792 Main St,Chicago,IL,60627,L8477407,2022-06-21,145,0,1,2
+414,Restaurant_414,Food Truck,Risk 3 (Low),399 Main St,Chicago,IL,60613,L5446101,2020-08-10,26,1,0,4
+415,Restaurant_415,Bakery,Risk 3 (Low),2168 Main St,Chicago,IL,60652,L8270210,2017-07-27,172,1,0,7
+416,Restaurant_416,Bakery,Risk 3 (Low),7174 Main St,Chicago,IL,60696,L1204877,2025-02-17,164,0,1,0
+417,Restaurant_417,Cafe,Risk 1 (High),8204 Main St,Chicago,IL,60676,L1562331,2022-02-26,58,1,0,3
+418,Restaurant_418,Cafe,Risk 2 (Medium),8817 Main St,Chicago,IL,60644,L8213113,2020-11-30,56,1,1,4
+419,Restaurant_419,Grocery Store,Risk 3 (Low),9095 Main St,Chicago,IL,60662,L2559072,2021-06-27,21,1,0,3
+420,Restaurant_420,Grocery Store,Risk 2 (Medium),9900 Main St,Chicago,IL,60614,L5094208,2015-11-19,170,1,0,9
+421,Restaurant_421,Grocery Store,Risk 1 (High),9592 Main St,Chicago,IL,60653,L8942110,2019-04-30,129,1,1,6
+422,Restaurant_422,Bakery,Risk 3 (Low),1361 Main St,Chicago,IL,60607,L5628904,2017-12-17,56,0,1,7
+423,Restaurant_423,Cafe,Risk 2 (Medium),8375 Main St,Chicago,IL,60681,L7329915,2016-01-31,115,1,1,9
+424,Restaurant_424,Food Truck,Risk 3 (Low),7754 Main St,Chicago,IL,60620,L9585225,2015-08-10,175,1,1,9
+425,Restaurant_425,Bakery,Risk 1 (High),7291 Main St,Chicago,IL,60633,L6859864,2020-06-23,193,1,1,4
+426,Restaurant_426,Bakery,Risk 3 (Low),9279 Main St,Chicago,IL,60627,L9338287,2017-05-08,162,0,0,8
+427,Restaurant_427,Food Truck,Risk 3 (Low),1746 Main St,Chicago,IL,60699,L5189191,2022-09-12,196,0,0,2
+428,Restaurant_428,Restaurant,Risk 3 (Low),7783 Main St,Chicago,IL,60647,L8540962,2023-11-28,44,1,0,1
+429,Restaurant_429,Food Truck,Risk 3 (Low),404 Main St,Chicago,IL,60689,L8674641,2024-05-24,83,0,1,1
+430,Restaurant_430,Cafe,Risk 2 (Medium),219 Main St,Chicago,IL,60684,L2488735,2017-11-07,47,0,0,7
+431,Restaurant_431,Restaurant,Risk 1 (High),8547 Main St,Chicago,IL,60663,L2797288,2016-07-10,80,1,1,8
+432,Restaurant_432,Grocery Store,Risk 3 (Low),82 Main St,Chicago,IL,60601,L3584215,2024-02-17,132,1,1,1
+433,Restaurant_433,Restaurant,Risk 1 (High),5384 Main St,Chicago,IL,60622,L2320555,2019-03-26,62,1,0,6
+434,Restaurant_434,Grocery Store,Risk 3 (Low),2121 Main St,Chicago,IL,60626,L4871727,2021-03-06,172,1,1,4
+435,Restaurant_435,Bakery,Risk 3 (Low),2668 Main St,Chicago,IL,60664,L1359845,2023-11-15,166,0,1,1
+436,Restaurant_436,Cafe,Risk 3 (Low),9496 Main St,Chicago,IL,60602,L3195859,2021-08-17,63,1,1,3
+437,Restaurant_437,Grocery Store,Risk 2 (Medium),8720 Main St,Chicago,IL,60656,L6030364,2021-01-23,131,0,1,4
+438,Restaurant_438,Grocery Store,Risk 1 (High),4030 Main St,Chicago,IL,60631,L6580696,2018-02-08,123,1,1,7
+439,Restaurant_439,Bakery,Risk 3 (Low),9545 Main St,Chicago,IL,60624,L1416472,2017-05-28,131,0,0,8
+440,Restaurant_440,Cafe,Risk 3 (Low),8328 Main St,Chicago,IL,60637,L9377644,2020-03-21,118,0,0,5
+441,Restaurant_441,Restaurant,Risk 2 (Medium),6507 Main St,Chicago,IL,60673,L1513616,2017-03-01,111,0,1,8
+442,Restaurant_442,Cafe,Risk 1 (High),3587 Main St,Chicago,IL,60654,L3415653,2020-09-17,60,0,0,4
+443,Restaurant_443,Cafe,Risk 3 (Low),2081 Main St,Chicago,IL,60671,L3188516,2018-02-14,101,0,0,7
+444,Restaurant_444,Restaurant,Risk 3 (Low),9098 Main St,Chicago,IL,60645,L3069690,2017-04-12,21,0,1,8
+445,Restaurant_445,Cafe,Risk 3 (Low),4550 Main St,Chicago,IL,60673,L1328808,2025-03-11,133,1,0,0
+446,Restaurant_446,Cafe,Risk 2 (Medium),2618 Main St,Chicago,IL,60667,L3047120,2015-07-02,35,1,1,9
+447,Restaurant_447,Grocery Store,Risk 2 (Medium),2758 Main St,Chicago,IL,60617,L5790640,2016-06-11,145,0,1,8
+448,Restaurant_448,Bakery,Risk 3 (Low),8302 Main St,Chicago,IL,60686,L3258195,2017-10-06,93,1,0,7
+449,Restaurant_449,Bakery,Risk 2 (Medium),7218 Main St,Chicago,IL,60679,L2749741,2018-09-07,188,0,0,6
+450,Restaurant_450,Grocery Store,Risk 3 (Low),760 Main St,Chicago,IL,60617,L9187141,2016-03-24,189,0,1,9
+451,Restaurant_451,Restaurant,Risk 1 (High),3802 Main St,Chicago,IL,60652,L8052767,2024-02-22,117,1,0,1
+452,Restaurant_452,Bakery,Risk 3 (Low),6456 Main St,Chicago,IL,60641,L8080989,2015-10-09,142,0,1,9
+453,Restaurant_453,Grocery Store,Risk 2 (Medium),7599 Main St,Chicago,IL,60629,L9395913,2018-01-20,171,0,0,7
+454,Restaurant_454,Bakery,Risk 1 (High),8936 Main St,Chicago,IL,60674,L7302898,2023-08-09,187,1,1,1
+455,Restaurant_455,Food Truck,Risk 3 (Low),169 Main St,Chicago,IL,60615,L3925591,2015-08-01,156,1,0,9
+456,Restaurant_456,Grocery Store,Risk 2 (Medium),8055 Main St,Chicago,IL,60626,L5548899,2020-04-10,83,0,0,5
+457,Restaurant_457,Bakery,Risk 2 (Medium),2247 Main St,Chicago,IL,60625,L5351939,2023-01-07,166,0,1,2
+458,Restaurant_458,Grocery Store,Risk 3 (Low),2384 Main St,Chicago,IL,60652,L4780785,2021-05-29,117,0,1,4
+459,Restaurant_459,Cafe,Risk 1 (High),7017 Main St,Chicago,IL,60609,L7208615,2018-05-30,110,1,0,7
+460,Restaurant_460,Cafe,Risk 1 (High),5541 Main St,Chicago,IL,60640,L3634561,2022-09-04,106,1,1,2
+461,Restaurant_461,Grocery Store,Risk 1 (High),681 Main St,Chicago,IL,60654,L7339261,2020-03-15,111,0,1,5
+462,Restaurant_462,Grocery Store,Risk 1 (High),5860 Main St,Chicago,IL,60656,L4916364,2021-03-07,45,1,1,4
+463,Restaurant_463,Restaurant,Risk 3 (Low),8890 Main St,Chicago,IL,60612,L7826826,2021-10-11,20,1,1,3
+464,Restaurant_464,Restaurant,Risk 1 (High),7978 Main St,Chicago,IL,60618,L2282191,2021-06-01,111,0,1,3
+465,Restaurant_465,Bakery,Risk 1 (High),8712 Main St,Chicago,IL,60671,L1143030,2016-08-24,31,0,0,8
+466,Restaurant_466,Restaurant,Risk 3 (Low),7732 Main St,Chicago,IL,60610,L6663345,2018-10-08,190,1,0,6
+467,Restaurant_467,Bakery,Risk 1 (High),3498 Main St,Chicago,IL,60628,L6204490,2017-03-23,161,1,0,8
+468,Restaurant_468,Restaurant,Risk 1 (High),6518 Main St,Chicago,IL,60685,L7488634,2016-07-27,95,0,1,8
+469,Restaurant_469,Bakery,Risk 1 (High),8991 Main St,Chicago,IL,60642,L1716776,2015-09-30,25,1,0,9
+470,Restaurant_470,Bakery,Risk 3 (Low),4696 Main St,Chicago,IL,60684,L6932809,2017-12-19,196,1,0,7
+471,Restaurant_471,Food Truck,Risk 1 (High),6569 Main St,Chicago,IL,60699,L1037916,2020-03-21,85,0,1,5
+472,Restaurant_472,Food Truck,Risk 1 (High),2123 Main St,Chicago,IL,60676,L8250426,2024-09-13,180,0,1,0
+473,Restaurant_473,Grocery Store,Risk 2 (Medium),1967 Main St,Chicago,IL,60634,L2405261,2022-09-14,115,0,1,2
+474,Restaurant_474,Grocery Store,Risk 2 (Medium),4239 Main St,Chicago,IL,60672,L2791257,2023-07-30,193,1,0,1
+475,Restaurant_475,Restaurant,Risk 2 (Medium),5163 Main St,Chicago,IL,60608,L9044069,2023-03-26,167,0,0,2
+476,Restaurant_476,Bakery,Risk 3 (Low),6230 Main St,Chicago,IL,60659,L9003413,2025-01-26,77,1,1,0
+477,Restaurant_477,Food Truck,Risk 3 (Low),7905 Main St,Chicago,IL,60684,L5302677,2018-04-09,159,1,1,7
+478,Restaurant_478,Grocery Store,Risk 1 (High),2218 Main St,Chicago,IL,60618,L4290674,2021-04-24,115,1,1,4
+479,Restaurant_479,Cafe,Risk 3 (Low),7588 Main St,Chicago,IL,60651,L2660231,2022-01-27,79,1,0,3
+480,Restaurant_480,Grocery Store,Risk 3 (Low),4777 Main St,Chicago,IL,60697,L3453396,2022-12-26,175,1,0,2
+481,Restaurant_481,Grocery Store,Risk 2 (Medium),5655 Main St,Chicago,IL,60614,L3019243,2024-09-03,85,0,0,0
+482,Restaurant_482,Restaurant,Risk 2 (Medium),9942 Main St,Chicago,IL,60628,L8363660,2024-04-20,78,1,1,1
+483,Restaurant_483,Grocery Store,Risk 3 (Low),1719 Main St,Chicago,IL,60642,L9542808,2022-04-28,85,1,1,3
+484,Restaurant_484,Grocery Store,Risk 1 (High),3744 Main St,Chicago,IL,60689,L8889625,2018-06-28,180,1,1,6
+485,Restaurant_485,Restaurant,Risk 3 (Low),4408 Main St,Chicago,IL,60668,L2679157,2024-04-17,190,1,0,1
+486,Restaurant_486,Restaurant,Risk 1 (High),1202 Main St,Chicago,IL,60651,L4575689,2022-09-12,21,0,1,2
+487,Restaurant_487,Food Truck,Risk 3 (Low),416 Main St,Chicago,IL,60626,L1470475,2025-01-29,172,0,0,0
+488,Restaurant_488,Cafe,Risk 3 (Low),2705 Main St,Chicago,IL,60628,L1741828,2023-01-20,22,1,0,2
+489,Restaurant_489,Bakery,Risk 1 (High),5785 Main St,Chicago,IL,60607,L7245913,2017-11-09,176,0,1,7
+490,Restaurant_490,Restaurant,Risk 1 (High),3518 Main St,Chicago,IL,60640,L2422062,2019-06-08,60,1,1,5
+491,Restaurant_491,Grocery Store,Risk 1 (High),7443 Main St,Chicago,IL,60694,L9414366,2024-04-21,175,1,1,1
+492,Restaurant_492,Cafe,Risk 1 (High),7183 Main St,Chicago,IL,60622,L2317504,2024-12-07,113,1,1,0
+493,Restaurant_493,Bakery,Risk 1 (High),4282 Main St,Chicago,IL,60679,L1984120,2015-10-08,20,1,0,9
+494,Restaurant_494,Cafe,Risk 1 (High),2150 Main St,Chicago,IL,60607,L8657839,2024-06-02,27,1,1,0
+495,Restaurant_495,Restaurant,Risk 3 (Low),9426 Main St,Chicago,IL,60679,L8378023,2024-11-12,91,1,0,0
+496,Restaurant_496,Food Truck,Risk 3 (Low),5835 Main St,Chicago,IL,60622,L2766756,2023-08-30,129,1,1,1
+497,Restaurant_497,Food Truck,Risk 3 (Low),4123 Main St,Chicago,IL,60649,L1665938,2019-07-24,187,1,1,5
+498,Restaurant_498,Grocery Store,Risk 1 (High),967 Main St,Chicago,IL,60666,L1125926,2022-09-05,136,1,1,2
+499,Restaurant_499,Grocery Store,Risk 2 (Medium),6304 Main St,Chicago,IL,60611,L4471371,2016-10-23,120,1,1,8
+500,Restaurant_500,Bakery,Risk 3 (Low),4026 Main St,Chicago,IL,60651,L5037868,2023-02-13,144,1,1,2
+501,Restaurant_501,Cafe,Risk 3 (Low),1377 Main St,Chicago,IL,60695,L4831963,2024-04-11,87,1,0,1
+502,Restaurant_502,Food Truck,Risk 3 (Low),237 Main St,Chicago,IL,60693,L2392074,2024-12-28,38,1,1,0
+503,Restaurant_503,Cafe,Risk 2 (Medium),884 Main St,Chicago,IL,60647,L8133045,2020-06-16,173,0,1,4
+504,Restaurant_504,Cafe,Risk 1 (High),8340 Main St,Chicago,IL,60604,L4864631,2023-10-17,103,1,0,1
+505,Restaurant_505,Bakery,Risk 2 (Medium),9347 Main St,Chicago,IL,60612,L4319182,2016-05-25,155,0,1,9
+506,Restaurant_506,Grocery Store,Risk 3 (Low),6970 Main St,Chicago,IL,60677,L4712882,2024-03-11,141,0,0,1
+507,Restaurant_507,Restaurant,Risk 2 (Medium),3320 Main St,Chicago,IL,60671,L9766440,2016-10-09,110,0,1,8
+508,Restaurant_508,Bakery,Risk 2 (Medium),7295 Main St,Chicago,IL,60695,L7164882,2016-12-05,182,0,0,8
+509,Restaurant_509,Grocery Store,Risk 1 (High),9879 Main St,Chicago,IL,60678,L7052503,2015-09-05,93,1,0,9
+510,Restaurant_510,Grocery Store,Risk 1 (High),1142 Main St,Chicago,IL,60612,L7318528,2016-03-26,171,1,0,9
+511,Restaurant_511,Restaurant,Risk 3 (Low),8832 Main St,Chicago,IL,60696,L9144633,2019-02-10,98,0,1,6
+512,Restaurant_512,Food Truck,Risk 2 (Medium),3903 Main St,Chicago,IL,60634,L8294246,2021-05-29,184,0,1,4
+513,Restaurant_513,Bakery,Risk 3 (Low),8058 Main St,Chicago,IL,60682,L6930548,2020-08-24,36,1,1,4
+514,Restaurant_514,Food Truck,Risk 3 (Low),6317 Main St,Chicago,IL,60689,L2133880,2021-08-02,136,0,1,3
+515,Restaurant_515,Cafe,Risk 1 (High),567 Main St,Chicago,IL,60657,L9253721,2018-09-29,133,0,0,6
+516,Restaurant_516,Bakery,Risk 2 (Medium),2974 Main St,Chicago,IL,60675,L7021521,2018-02-21,163,1,1,7
+517,Restaurant_517,Grocery Store,Risk 1 (High),4482 Main St,Chicago,IL,60634,L5932936,2018-09-16,159,0,0,6
+518,Restaurant_518,Restaurant,Risk 1 (High),5505 Main St,Chicago,IL,60636,L5428586,2025-03-20,142,1,1,0
+519,Restaurant_519,Grocery Store,Risk 1 (High),6742 Main St,Chicago,IL,60673,L7571849,2018-10-05,112,0,0,6
+520,Restaurant_520,Bakery,Risk 3 (Low),5296 Main St,Chicago,IL,60671,L7652188,2020-10-21,87,0,0,4
+521,Restaurant_521,Bakery,Risk 3 (Low),9149 Main St,Chicago,IL,60616,L2663978,2019-10-23,160,0,1,5
+522,Restaurant_522,Food Truck,Risk 1 (High),5926 Main St,Chicago,IL,60613,L1867073,2018-12-22,91,1,1,6
+523,Restaurant_523,Restaurant,Risk 1 (High),9319 Main St,Chicago,IL,60666,L1229010,2023-03-11,41,1,0,2
+524,Restaurant_524,Cafe,Risk 1 (High),872 Main St,Chicago,IL,60667,L4585691,2018-02-04,53,1,0,7
+525,Restaurant_525,Cafe,Risk 1 (High),8948 Main St,Chicago,IL,60669,L5375499,2016-11-15,130,0,1,8
+526,Restaurant_526,Restaurant,Risk 3 (Low),6221 Main St,Chicago,IL,60630,L5434305,2021-09-24,42,1,0,3
+527,Restaurant_527,Grocery Store,Risk 1 (High),4822 Main St,Chicago,IL,60639,L9946254,2017-10-08,97,0,1,7
+528,Restaurant_528,Cafe,Risk 2 (Medium),3471 Main St,Chicago,IL,60653,L5677278,2022-10-16,58,1,1,2
+529,Restaurant_529,Grocery Store,Risk 3 (Low),8422 Main St,Chicago,IL,60683,L2234375,2020-01-09,190,0,1,5
+530,Restaurant_530,Restaurant,Risk 3 (Low),3785 Main St,Chicago,IL,60662,L6091910,2020-11-19,122,1,1,4
+531,Restaurant_531,Restaurant,Risk 3 (Low),5997 Main St,Chicago,IL,60670,L2809565,2018-10-25,184,0,0,6
+532,Restaurant_532,Food Truck,Risk 1 (High),4301 Main St,Chicago,IL,60670,L6165947,2016-10-31,129,0,0,8
+533,Restaurant_533,Food Truck,Risk 2 (Medium),5735 Main St,Chicago,IL,60631,L7845217,2021-05-25,131,1,0,4
+534,Restaurant_534,Restaurant,Risk 2 (Medium),7365 Main St,Chicago,IL,60607,L3212924,2017-02-23,30,0,0,8
+535,Restaurant_535,Bakery,Risk 2 (Medium),7142 Main St,Chicago,IL,60659,L7776437,2019-02-10,159,0,1,6
+536,Restaurant_536,Grocery Store,Risk 1 (High),1146 Main St,Chicago,IL,60646,L3558768,2016-05-09,113,0,1,9
+537,Restaurant_537,Bakery,Risk 1 (High),8175 Main St,Chicago,IL,60651,L7672844,2016-06-26,197,1,1,8
+538,Restaurant_538,Food Truck,Risk 2 (Medium),5648 Main St,Chicago,IL,60695,L3499692,2020-09-04,197,1,0,4
+539,Restaurant_539,Cafe,Risk 3 (Low),9224 Main St,Chicago,IL,60662,L5037050,2022-01-26,108,1,0,3
+540,Restaurant_540,Grocery Store,Risk 1 (High),2233 Main St,Chicago,IL,60624,L8931592,2017-07-20,64,0,0,7
+541,Restaurant_541,Food Truck,Risk 2 (Medium),3529 Main St,Chicago,IL,60686,L5016237,2017-04-25,193,1,1,8
+542,Restaurant_542,Bakery,Risk 1 (High),4106 Main St,Chicago,IL,60675,L7843361,2015-09-18,126,1,0,9
+543,Restaurant_543,Food Truck,Risk 1 (High),2393 Main St,Chicago,IL,60609,L6041059,2020-03-31,52,1,0,5
+544,Restaurant_544,Food Truck,Risk 2 (Medium),1548 Main St,Chicago,IL,60697,L3428666,2022-03-20,59,1,0,3
+545,Restaurant_545,Food Truck,Risk 1 (High),9412 Main St,Chicago,IL,60665,L1175525,2021-10-16,153,0,0,3
+546,Restaurant_546,Bakery,Risk 3 (Low),4320 Main St,Chicago,IL,60657,L7512877,2017-07-05,136,0,1,7
+547,Restaurant_547,Restaurant,Risk 3 (Low),4291 Main St,Chicago,IL,60661,L4992041,2024-05-26,31,0,0,1
+548,Restaurant_548,Food Truck,Risk 2 (Medium),1138 Main St,Chicago,IL,60628,L7661151,2023-08-16,61,1,1,1
+549,Restaurant_549,Restaurant,Risk 2 (Medium),5903 Main St,Chicago,IL,60643,L1474047,2018-12-23,144,1,0,6
+550,Restaurant_550,Food Truck,Risk 2 (Medium),5988 Main St,Chicago,IL,60656,L8377569,2018-04-15,50,1,1,7
+551,Restaurant_551,Bakery,Risk 2 (Medium),6929 Main St,Chicago,IL,60620,L8974300,2025-01-19,66,1,1,0
+552,Restaurant_552,Restaurant,Risk 2 (Medium),3098 Main St,Chicago,IL,60612,L4946361,2020-01-24,129,0,1,5
+553,Restaurant_553,Grocery Store,Risk 1 (High),7071 Main St,Chicago,IL,60609,L7667974,2017-11-15,149,0,1,7
+554,Restaurant_554,Food Truck,Risk 2 (Medium),7679 Main St,Chicago,IL,60685,L4417254,2023-01-22,47,1,0,2
+555,Restaurant_555,Bakery,Risk 1 (High),7485 Main St,Chicago,IL,60617,L3802948,2023-01-12,89,1,1,2
+556,Restaurant_556,Bakery,Risk 3 (Low),1575 Main St,Chicago,IL,60692,L4453025,2025-05-28,164,1,0,0
+557,Restaurant_557,Bakery,Risk 1 (High),9102 Main St,Chicago,IL,60602,L3091001,2015-09-12,169,0,1,9
+558,Restaurant_558,Restaurant,Risk 2 (Medium),7761 Main St,Chicago,IL,60649,L3412578,2025-02-22,116,0,1,0
+559,Restaurant_559,Food Truck,Risk 2 (Medium),5284 Main St,Chicago,IL,60677,L1996564,2023-01-01,29,1,1,2
+560,Restaurant_560,Food Truck,Risk 2 (Medium),1872 Main St,Chicago,IL,60664,L7512841,2019-10-16,31,0,1,5
+561,Restaurant_561,Food Truck,Risk 2 (Medium),5652 Main St,Chicago,IL,60640,L1768469,2016-03-01,106,1,0,9
+562,Restaurant_562,Bakery,Risk 1 (High),1651 Main St,Chicago,IL,60624,L2573006,2023-10-18,194,0,0,1
+563,Restaurant_563,Bakery,Risk 3 (Low),9890 Main St,Chicago,IL,60626,L3933117,2016-09-04,88,1,0,8
+564,Restaurant_564,Cafe,Risk 1 (High),239 Main St,Chicago,IL,60657,L1605100,2019-11-21,176,1,0,5
+565,Restaurant_565,Cafe,Risk 1 (High),9491 Main St,Chicago,IL,60675,L3333815,2018-06-24,147,1,1,6
+566,Restaurant_566,Food Truck,Risk 3 (Low),10 Main St,Chicago,IL,60637,L6504866,2018-06-26,21,1,0,6
+567,Restaurant_567,Food Truck,Risk 3 (Low),2845 Main St,Chicago,IL,60633,L5978545,2017-11-24,25,1,1,7
+568,Restaurant_568,Restaurant,Risk 3 (Low),2629 Main St,Chicago,IL,60611,L5668275,2023-06-09,152,0,1,1
+569,Restaurant_569,Restaurant,Risk 3 (Low),8995 Main St,Chicago,IL,60683,L5044933,2022-06-26,45,1,1,2
+570,Restaurant_570,Food Truck,Risk 2 (Medium),7727 Main St,Chicago,IL,60645,L6843449,2025-04-18,46,1,0,0
+571,Restaurant_571,Cafe,Risk 2 (Medium),9072 Main St,Chicago,IL,60635,L6075277,2022-08-11,163,0,0,2
+572,Restaurant_572,Bakery,Risk 3 (Low),6110 Main St,Chicago,IL,60612,L5279136,2020-04-16,69,0,1,5
+573,Restaurant_573,Grocery Store,Risk 1 (High),284 Main St,Chicago,IL,60632,L1226865,2023-01-07,57,0,1,2
+574,Restaurant_574,Bakery,Risk 1 (High),8252 Main St,Chicago,IL,60602,L6700322,2024-06-02,156,1,0,0
+575,Restaurant_575,Cafe,Risk 2 (Medium),7089 Main St,Chicago,IL,60642,L8746043,2017-06-08,188,0,1,7
+576,Restaurant_576,Grocery Store,Risk 2 (Medium),2974 Main St,Chicago,IL,60618,L7520870,2021-03-18,187,1,0,4
+577,Restaurant_577,Cafe,Risk 3 (Low),2484 Main St,Chicago,IL,60642,L7479104,2020-12-23,95,0,1,4
+578,Restaurant_578,Food Truck,Risk 1 (High),8066 Main St,Chicago,IL,60601,L3085557,2024-06-30,35,1,0,0
+579,Restaurant_579,Food Truck,Risk 3 (Low),8597 Main St,Chicago,IL,60603,L5022544,2019-07-13,92,1,0,5
+580,Restaurant_580,Cafe,Risk 3 (Low),883 Main St,Chicago,IL,60653,L2743932,2025-05-22,85,0,1,0
+581,Restaurant_581,Grocery Store,Risk 2 (Medium),2153 Main St,Chicago,IL,60637,L5675650,2017-07-24,188,0,0,7
+582,Restaurant_582,Bakery,Risk 2 (Medium),4625 Main St,Chicago,IL,60616,L2509316,2023-01-31,60,1,0,2
+583,Restaurant_583,Cafe,Risk 3 (Low),9256 Main St,Chicago,IL,60638,L1125261,2015-07-13,130,1,0,9
+584,Restaurant_584,Restaurant,Risk 2 (Medium),7748 Main St,Chicago,IL,60667,L6395863,2016-05-20,62,1,0,9
+585,Restaurant_585,Grocery Store,Risk 3 (Low),5255 Main St,Chicago,IL,60668,L1258289,2017-03-12,54,1,0,8
+586,Restaurant_586,Cafe,Risk 1 (High),6804 Main St,Chicago,IL,60650,L3545873,2021-04-06,153,1,0,4
+587,Restaurant_587,Grocery Store,Risk 2 (Medium),9223 Main St,Chicago,IL,60646,L9072313,2020-07-22,95,0,1,4
+588,Restaurant_588,Bakery,Risk 1 (High),312 Main St,Chicago,IL,60692,L2719593,2017-04-14,150,0,0,8
+589,Restaurant_589,Grocery Store,Risk 3 (Low),5123 Main St,Chicago,IL,60632,L2923387,2022-06-26,123,1,1,2
+590,Restaurant_590,Restaurant,Risk 2 (Medium),7498 Main St,Chicago,IL,60636,L5817839,2022-02-24,89,0,1,3
+591,Restaurant_591,Food Truck,Risk 1 (High),9951 Main St,Chicago,IL,60629,L7084372,2019-07-29,126,0,1,5
+592,Restaurant_592,Grocery Store,Risk 3 (Low),7144 Main St,Chicago,IL,60686,L9767461,2023-05-23,150,0,1,2
+593,Restaurant_593,Restaurant,Risk 2 (Medium),6273 Main St,Chicago,IL,60626,L8075782,2020-07-18,157,1,1,4
+594,Restaurant_594,Grocery Store,Risk 2 (Medium),6431 Main St,Chicago,IL,60619,L8451184,2021-02-04,133,1,0,4
+595,Restaurant_595,Bakery,Risk 2 (Medium),2609 Main St,Chicago,IL,60660,L5469657,2019-09-17,56,0,0,5
+596,Restaurant_596,Bakery,Risk 1 (High),2380 Main St,Chicago,IL,60693,L6168731,2018-11-07,179,0,1,6
+597,Restaurant_597,Food Truck,Risk 1 (High),3040 Main St,Chicago,IL,60655,L5128726,2018-02-07,30,1,0,7
+598,Restaurant_598,Bakery,Risk 2 (Medium),8110 Main St,Chicago,IL,60623,L7532072,2022-05-04,60,0,1,3
+599,Restaurant_599,Food Truck,Risk 1 (High),5544 Main St,Chicago,IL,60644,L7349398,2020-02-04,30,0,1,5
+600,Restaurant_600,Grocery Store,Risk 1 (High),3821 Main St,Chicago,IL,60662,L4254432,2025-03-24,56,0,1,0
+601,Restaurant_601,Cafe,Risk 2 (Medium),7133 Main St,Chicago,IL,60613,L8974211,2023-07-31,20,1,1,1
+602,Restaurant_602,Cafe,Risk 2 (Medium),4963 Main St,Chicago,IL,60696,L7236400,2022-02-15,44,1,1,3
+603,Restaurant_603,Bakery,Risk 1 (High),1880 Main St,Chicago,IL,60621,L6604586,2020-09-11,91,1,1,4
+604,Restaurant_604,Food Truck,Risk 2 (Medium),9127 Main St,Chicago,IL,60659,L7112973,2025-04-09,155,1,0,0
+605,Restaurant_605,Food Truck,Risk 2 (Medium),8889 Main St,Chicago,IL,60601,L3316255,2020-01-19,34,1,1,5
+606,Restaurant_606,Cafe,Risk 1 (High),3370 Main St,Chicago,IL,60694,L6973637,2024-04-05,86,0,0,1
+607,Restaurant_607,Cafe,Risk 3 (Low),1367 Main St,Chicago,IL,60665,L8164647,2015-11-07,77,0,1,9
+608,Restaurant_608,Grocery Store,Risk 2 (Medium),5464 Main St,Chicago,IL,60627,L4213391,2018-10-30,147,1,1,6
+609,Restaurant_609,Cafe,Risk 1 (High),2048 Main St,Chicago,IL,60660,L6489002,2020-04-29,64,0,0,5
+610,Restaurant_610,Restaurant,Risk 1 (High),3693 Main St,Chicago,IL,60650,L3946248,2020-10-23,33,1,0,4
+611,Restaurant_611,Bakery,Risk 2 (Medium),6823 Main St,Chicago,IL,60641,L3716631,2021-04-05,69,0,0,4
+612,Restaurant_612,Food Truck,Risk 1 (High),5844 Main St,Chicago,IL,60682,L2586774,2016-01-20,145,0,0,9
+613,Restaurant_613,Bakery,Risk 1 (High),4696 Main St,Chicago,IL,60667,L6881133,2023-03-11,90,1,0,2
+614,Restaurant_614,Restaurant,Risk 1 (High),8432 Main St,Chicago,IL,60697,L1610610,2024-02-04,109,1,1,1
+615,Restaurant_615,Food Truck,Risk 2 (Medium),5520 Main St,Chicago,IL,60675,L9763659,2016-02-19,65,1,1,9
+616,Restaurant_616,Food Truck,Risk 2 (Medium),2624 Main St,Chicago,IL,60646,L1581971,2022-03-14,184,0,1,3
+617,Restaurant_617,Restaurant,Risk 2 (Medium),6926 Main St,Chicago,IL,60681,L6409640,2016-08-04,26,0,0,8
+618,Restaurant_618,Restaurant,Risk 2 (Medium),3895 Main St,Chicago,IL,60633,L2733127,2019-05-25,161,1,1,6
+619,Restaurant_619,Cafe,Risk 2 (Medium),33 Main St,Chicago,IL,60601,L6023234,2017-07-28,123,0,1,7
+620,Restaurant_620,Grocery Store,Risk 3 (Low),6078 Main St,Chicago,IL,60688,L2225508,2018-05-01,33,1,0,7
+621,Restaurant_621,Food Truck,Risk 3 (Low),9643 Main St,Chicago,IL,60627,L1008260,2015-12-24,123,0,1,9
+622,Restaurant_622,Cafe,Risk 1 (High),3410 Main St,Chicago,IL,60616,L1959964,2022-09-25,90,0,0,2
+623,Restaurant_623,Cafe,Risk 1 (High),1500 Main St,Chicago,IL,60628,L7421867,2022-04-16,22,0,0,3
+624,Restaurant_624,Grocery Store,Risk 2 (Medium),3860 Main St,Chicago,IL,60644,L8774909,2018-03-09,163,1,0,7
+625,Restaurant_625,Bakery,Risk 3 (Low),7376 Main St,Chicago,IL,60694,L9851371,2025-05-08,103,0,1,0
+626,Restaurant_626,Cafe,Risk 2 (Medium),884 Main St,Chicago,IL,60646,L3673467,2025-05-29,80,1,0,0
+627,Restaurant_627,Bakery,Risk 3 (Low),1026 Main St,Chicago,IL,60653,L8769629,2017-03-28,65,1,1,8
+628,Restaurant_628,Bakery,Risk 2 (Medium),8121 Main St,Chicago,IL,60616,L9276512,2023-06-09,73,1,0,1
+629,Restaurant_629,Grocery Store,Risk 2 (Medium),2927 Main St,Chicago,IL,60648,L2394338,2015-12-22,44,0,0,9
+630,Restaurant_630,Grocery Store,Risk 1 (High),7463 Main St,Chicago,IL,60697,L7024900,2020-05-20,41,1,0,5
+631,Restaurant_631,Cafe,Risk 1 (High),6017 Main St,Chicago,IL,60690,L2834071,2019-09-07,160,1,1,5
+632,Restaurant_632,Bakery,Risk 1 (High),7880 Main St,Chicago,IL,60622,L9347506,2018-10-09,60,0,0,6
+633,Restaurant_633,Grocery Store,Risk 2 (Medium),8215 Main St,Chicago,IL,60644,L2181849,2021-03-30,174,0,0,4
+634,Restaurant_634,Grocery Store,Risk 1 (High),1149 Main St,Chicago,IL,60646,L4723998,2015-12-25,159,1,1,9
+635,Restaurant_635,Bakery,Risk 3 (Low),8107 Main St,Chicago,IL,60690,L5626914,2021-12-13,36,1,0,3
+636,Restaurant_636,Cafe,Risk 2 (Medium),7088 Main St,Chicago,IL,60635,L9865344,2019-10-02,78,0,1,5
+637,Restaurant_637,Grocery Store,Risk 3 (Low),7796 Main St,Chicago,IL,60676,L6975260,2018-11-28,109,0,1,6
+638,Restaurant_638,Bakery,Risk 2 (Medium),4686 Main St,Chicago,IL,60639,L4524802,2018-08-12,76,0,0,6
+639,Restaurant_639,Food Truck,Risk 2 (Medium),3937 Main St,Chicago,IL,60658,L4236080,2016-04-27,23,1,0,9
+640,Restaurant_640,Cafe,Risk 3 (Low),5391 Main St,Chicago,IL,60651,L4804608,2022-08-07,184,1,0,2
+641,Restaurant_641,Food Truck,Risk 1 (High),599 Main St,Chicago,IL,60679,L9204530,2019-05-30,114,1,1,6
+642,Restaurant_642,Grocery Store,Risk 2 (Medium),8081 Main St,Chicago,IL,60698,L3668137,2020-05-01,78,0,1,5
+643,Restaurant_643,Grocery Store,Risk 3 (Low),598 Main St,Chicago,IL,60676,L6142495,2018-08-24,172,1,1,6
+644,Restaurant_644,Restaurant,Risk 2 (Medium),7918 Main St,Chicago,IL,60690,L6020403,2024-09-02,180,1,1,0
+645,Restaurant_645,Grocery Store,Risk 1 (High),976 Main St,Chicago,IL,60678,L4290389,2024-02-29,41,1,0,1
+646,Restaurant_646,Grocery Store,Risk 1 (High),9666 Main St,Chicago,IL,60694,L7563374,2016-01-09,67,0,0,9
+647,Restaurant_647,Cafe,Risk 1 (High),1746 Main St,Chicago,IL,60692,L7973369,2019-04-17,47,0,1,6
+648,Restaurant_648,Grocery Store,Risk 2 (Medium),5067 Main St,Chicago,IL,60619,L1074326,2022-04-25,99,0,0,3
+649,Restaurant_649,Bakery,Risk 3 (Low),9626 Main St,Chicago,IL,60639,L9752740,2017-10-10,190,0,0,7
+650,Restaurant_650,Restaurant,Risk 2 (Medium),9833 Main St,Chicago,IL,60610,L6398588,2022-10-19,20,0,0,2
+651,Restaurant_651,Restaurant,Risk 1 (High),2341 Main St,Chicago,IL,60641,L5763026,2016-03-12,143,0,0,9
+652,Restaurant_652,Cafe,Risk 1 (High),752 Main St,Chicago,IL,60611,L2739415,2024-11-09,60,0,0,0
+653,Restaurant_653,Food Truck,Risk 1 (High),959 Main St,Chicago,IL,60699,L8166514,2020-12-06,78,1,0,4
+654,Restaurant_654,Bakery,Risk 2 (Medium),3763 Main St,Chicago,IL,60630,L7319989,2017-04-29,54,0,0,8
+655,Restaurant_655,Cafe,Risk 3 (Low),3002 Main St,Chicago,IL,60646,L8035127,2015-12-18,121,1,0,9
+656,Restaurant_656,Cafe,Risk 2 (Medium),2779 Main St,Chicago,IL,60686,L8402603,2019-11-03,185,1,0,5
+657,Restaurant_657,Grocery Store,Risk 3 (Low),4278 Main St,Chicago,IL,60636,L7931078,2020-08-04,95,1,0,4
+658,Restaurant_658,Bakery,Risk 2 (Medium),7627 Main St,Chicago,IL,60655,L8746510,2021-10-12,155,0,1,3
+659,Restaurant_659,Food Truck,Risk 3 (Low),6919 Main St,Chicago,IL,60659,L6718414,2025-03-08,56,0,1,0
+660,Restaurant_660,Bakery,Risk 2 (Medium),106 Main St,Chicago,IL,60662,L1375780,2021-07-25,99,1,1,3
+661,Restaurant_661,Cafe,Risk 2 (Medium),3894 Main St,Chicago,IL,60609,L7566761,2015-12-08,121,0,1,9
+662,Restaurant_662,Bakery,Risk 1 (High),3455 Main St,Chicago,IL,60669,L4180918,2024-05-09,149,0,1,1
+663,Restaurant_663,Food Truck,Risk 3 (Low),6488 Main St,Chicago,IL,60674,L3992695,2024-12-12,158,0,1,0
+664,Restaurant_664,Bakery,Risk 1 (High),3053 Main St,Chicago,IL,60616,L1580598,2016-10-04,89,1,1,8
+665,Restaurant_665,Cafe,Risk 3 (Low),6179 Main St,Chicago,IL,60663,L4291998,2019-10-09,156,1,0,5
+666,Restaurant_666,Food Truck,Risk 1 (High),7110 Main St,Chicago,IL,60669,L4579254,2018-03-27,156,1,1,7
+667,Restaurant_667,Bakery,Risk 1 (High),8556 Main St,Chicago,IL,60674,L3538414,2017-09-01,159,1,0,7
+668,Restaurant_668,Food Truck,Risk 3 (Low),941 Main St,Chicago,IL,60636,L4917452,2024-07-04,28,0,1,0
+669,Restaurant_669,Grocery Store,Risk 2 (Medium),7814 Main St,Chicago,IL,60627,L7087096,2017-05-17,35,1,0,8
+670,Restaurant_670,Restaurant,Risk 1 (High),2801 Main St,Chicago,IL,60677,L8500264,2016-09-16,189,0,0,8
+671,Restaurant_671,Bakery,Risk 3 (Low),1543 Main St,Chicago,IL,60650,L4470522,2017-10-06,129,0,0,7
+672,Restaurant_672,Restaurant,Risk 3 (Low),5534 Main St,Chicago,IL,60676,L5901579,2019-12-18,55,1,1,5
+673,Restaurant_673,Bakery,Risk 3 (Low),8669 Main St,Chicago,IL,60662,L3123520,2020-05-10,106,0,0,5
+674,Restaurant_674,Restaurant,Risk 1 (High),4900 Main St,Chicago,IL,60699,L1950578,2019-01-08,162,1,0,6
+675,Restaurant_675,Food Truck,Risk 1 (High),3857 Main St,Chicago,IL,60633,L1225301,2016-09-07,65,0,1,8
+676,Restaurant_676,Restaurant,Risk 3 (Low),9064 Main St,Chicago,IL,60698,L3117290,2018-09-16,99,0,1,6
+677,Restaurant_677,Grocery Store,Risk 3 (Low),2834 Main St,Chicago,IL,60638,L5437163,2024-07-05,145,1,1,0
+678,Restaurant_678,Restaurant,Risk 2 (Medium),6112 Main St,Chicago,IL,60606,L9206944,2024-12-04,103,1,0,0
+679,Restaurant_679,Grocery Store,Risk 1 (High),5551 Main St,Chicago,IL,60669,L2245124,2024-04-29,25,1,0,1
+680,Restaurant_680,Bakery,Risk 2 (Medium),7496 Main St,Chicago,IL,60601,L4808782,2017-05-11,30,1,0,8
+681,Restaurant_681,Grocery Store,Risk 3 (Low),6980 Main St,Chicago,IL,60628,L5735819,2022-07-07,178,1,0,2
+682,Restaurant_682,Cafe,Risk 1 (High),9269 Main St,Chicago,IL,60699,L2191856,2024-01-29,176,1,0,1
+683,Restaurant_683,Bakery,Risk 1 (High),7815 Main St,Chicago,IL,60617,L8209618,2015-12-31,50,0,0,9
+684,Restaurant_684,Restaurant,Risk 2 (Medium),6725 Main St,Chicago,IL,60665,L8633842,2015-08-01,94,1,1,9
+685,Restaurant_685,Bakery,Risk 3 (Low),9169 Main St,Chicago,IL,60635,L1619081,2019-01-21,96,1,0,6
+686,Restaurant_686,Bakery,Risk 2 (Medium),7769 Main St,Chicago,IL,60655,L4336572,2020-03-08,162,0,1,5
+687,Restaurant_687,Food Truck,Risk 2 (Medium),5902 Main St,Chicago,IL,60605,L1260462,2025-03-20,171,1,0,0
+688,Restaurant_688,Restaurant,Risk 2 (Medium),8312 Main St,Chicago,IL,60694,L1018858,2019-10-14,33,0,0,5
+689,Restaurant_689,Bakery,Risk 2 (Medium),9354 Main St,Chicago,IL,60607,L2510579,2023-10-05,139,1,1,1
+690,Restaurant_690,Grocery Store,Risk 2 (Medium),5123 Main St,Chicago,IL,60610,L3009654,2023-11-06,21,0,0,1
+691,Restaurant_691,Grocery Store,Risk 1 (High),7286 Main St,Chicago,IL,60619,L7396618,2019-01-17,48,1,1,6
+692,Restaurant_692,Restaurant,Risk 2 (Medium),9974 Main St,Chicago,IL,60696,L6508448,2017-06-11,149,0,0,7
+693,Restaurant_693,Restaurant,Risk 1 (High),5203 Main St,Chicago,IL,60663,L3612206,2022-09-21,108,1,1,2
+694,Restaurant_694,Cafe,Risk 3 (Low),4715 Main St,Chicago,IL,60621,L8994767,2017-09-07,191,1,1,7
+695,Restaurant_695,Grocery Store,Risk 1 (High),8881 Main St,Chicago,IL,60623,L3076814,2016-09-24,20,0,1,8
+696,Restaurant_696,Grocery Store,Risk 3 (Low),392 Main St,Chicago,IL,60632,L2055841,2023-05-17,165,0,0,2
+697,Restaurant_697,Food Truck,Risk 1 (High),8372 Main St,Chicago,IL,60639,L3992695,2017-08-04,118,1,0,7
+698,Restaurant_698,Food Truck,Risk 1 (High),9768 Main St,Chicago,IL,60651,L7022858,2024-11-05,68,1,0,0
+699,Restaurant_699,Cafe,Risk 3 (Low),9927 Main St,Chicago,IL,60670,L4248938,2018-10-21,104,0,1,6
+700,Restaurant_700,Restaurant,Risk 2 (Medium),8953 Main St,Chicago,IL,60660,L2234735,2018-10-05,52,0,0,6
+701,Restaurant_701,Bakery,Risk 3 (Low),3732 Main St,Chicago,IL,60651,L8595502,2020-09-15,85,1,1,4
+702,Restaurant_702,Bakery,Risk 3 (Low),307 Main St,Chicago,IL,60627,L9773277,2025-05-19,153,1,1,0
+703,Restaurant_703,Food Truck,Risk 2 (Medium),4204 Main St,Chicago,IL,60697,L5128366,2015-09-24,151,1,0,9
+704,Restaurant_704,Bakery,Risk 3 (Low),724 Main St,Chicago,IL,60609,L8737071,2017-10-31,66,1,1,7
+705,Restaurant_705,Restaurant,Risk 1 (High),7564 Main St,Chicago,IL,60682,L1291675,2020-03-03,46,0,0,5
+706,Restaurant_706,Grocery Store,Risk 1 (High),9554 Main St,Chicago,IL,60639,L3961576,2022-12-22,193,0,0,2
+707,Restaurant_707,Restaurant,Risk 2 (Medium),9975 Main St,Chicago,IL,60611,L2307090,2018-04-30,51,0,1,7
+708,Restaurant_708,Restaurant,Risk 2 (Medium),8962 Main St,Chicago,IL,60666,L1062904,2016-07-05,157,0,1,8
+709,Restaurant_709,Bakery,Risk 3 (Low),3685 Main St,Chicago,IL,60669,L7160886,2024-02-19,80,0,0,1
+710,Restaurant_710,Cafe,Risk 2 (Medium),5313 Main St,Chicago,IL,60656,L6239254,2023-10-05,190,1,0,1
+711,Restaurant_711,Restaurant,Risk 1 (High),6202 Main St,Chicago,IL,60627,L6193441,2024-07-22,49,0,1,0
+712,Restaurant_712,Food Truck,Risk 1 (High),227 Main St,Chicago,IL,60681,L3200734,2018-07-28,124,0,1,6
+713,Restaurant_713,Bakery,Risk 2 (Medium),1987 Main St,Chicago,IL,60655,L7368459,2021-12-28,157,1,1,3
+714,Restaurant_714,Bakery,Risk 1 (High),5078 Main St,Chicago,IL,60664,L2308169,2016-09-15,146,0,0,8
+715,Restaurant_715,Food Truck,Risk 1 (High),8546 Main St,Chicago,IL,60635,L2932653,2020-12-23,54,1,1,4
+716,Restaurant_716,Grocery Store,Risk 2 (Medium),119 Main St,Chicago,IL,60611,L1573224,2021-12-19,153,1,0,3
+717,Restaurant_717,Restaurant,Risk 2 (Medium),463 Main St,Chicago,IL,60695,L2743540,2020-02-26,37,1,1,5
+718,Restaurant_718,Bakery,Risk 3 (Low),2444 Main St,Chicago,IL,60637,L2707293,2022-07-21,46,1,1,2
+719,Restaurant_719,Restaurant,Risk 3 (Low),1942 Main St,Chicago,IL,60605,L7109757,2018-03-23,54,0,1,7
+720,Restaurant_720,Cafe,Risk 3 (Low),9761 Main St,Chicago,IL,60686,L4788652,2025-02-17,150,1,1,0
+721,Restaurant_721,Bakery,Risk 2 (Medium),4390 Main St,Chicago,IL,60692,L1772843,2024-01-14,198,0,0,1
+722,Restaurant_722,Restaurant,Risk 1 (High),2726 Main St,Chicago,IL,60617,L4823665,2019-07-14,80,0,0,5
+723,Restaurant_723,Cafe,Risk 3 (Low),634 Main St,Chicago,IL,60649,L6545183,2019-03-02,179,1,1,6
+724,Restaurant_724,Grocery Store,Risk 1 (High),9788 Main St,Chicago,IL,60646,L2674921,2022-03-23,196,0,0,3
+725,Restaurant_725,Cafe,Risk 2 (Medium),4070 Main St,Chicago,IL,60620,L9389103,2021-12-26,173,0,1,3
+726,Restaurant_726,Food Truck,Risk 2 (Medium),9513 Main St,Chicago,IL,60643,L7653810,2018-08-05,22,0,1,6
+727,Restaurant_727,Grocery Store,Risk 2 (Medium),6222 Main St,Chicago,IL,60637,L4883495,2025-01-30,66,0,0,0
+728,Restaurant_728,Grocery Store,Risk 2 (Medium),5834 Main St,Chicago,IL,60671,L7008515,2023-11-14,140,1,1,1
+729,Restaurant_729,Food Truck,Risk 3 (Low),9048 Main St,Chicago,IL,60650,L6744969,2022-01-28,168,0,0,3
+730,Restaurant_730,Grocery Store,Risk 3 (Low),9649 Main St,Chicago,IL,60650,L5019672,2020-08-29,166,0,0,4
+731,Restaurant_731,Cafe,Risk 2 (Medium),152 Main St,Chicago,IL,60642,L5696904,2025-03-23,177,0,1,0
+732,Restaurant_732,Cafe,Risk 1 (High),745 Main St,Chicago,IL,60646,L8006101,2022-12-08,60,0,0,2
+733,Restaurant_733,Food Truck,Risk 3 (Low),4990 Main St,Chicago,IL,60604,L2004257,2018-04-11,54,1,0,7
+734,Restaurant_734,Restaurant,Risk 2 (Medium),3323 Main St,Chicago,IL,60669,L8936850,2019-07-11,36,1,1,5
+735,Restaurant_735,Restaurant,Risk 2 (Medium),7170 Main St,Chicago,IL,60620,L3179795,2024-02-26,130,1,1,1
+736,Restaurant_736,Food Truck,Risk 2 (Medium),1669 Main St,Chicago,IL,60644,L5171854,2024-07-05,170,0,1,0
+737,Restaurant_737,Grocery Store,Risk 3 (Low),1516 Main St,Chicago,IL,60617,L4369065,2016-04-16,170,0,0,9
+738,Restaurant_738,Restaurant,Risk 1 (High),984 Main St,Chicago,IL,60652,L4703836,2016-02-10,25,1,1,9
+739,Restaurant_739,Restaurant,Risk 2 (Medium),704 Main St,Chicago,IL,60672,L7179218,2023-11-16,59,0,1,1
+740,Restaurant_740,Grocery Store,Risk 3 (Low),8859 Main St,Chicago,IL,60696,L8087486,2024-02-28,176,1,1,1
+741,Restaurant_741,Bakery,Risk 3 (Low),8359 Main St,Chicago,IL,60675,L3511534,2016-01-06,124,0,1,9
+742,Restaurant_742,Grocery Store,Risk 1 (High),9066 Main St,Chicago,IL,60666,L8440730,2021-06-05,199,1,0,3
+743,Restaurant_743,Grocery Store,Risk 3 (Low),9313 Main St,Chicago,IL,60672,L6267878,2021-04-07,83,0,0,4
+744,Restaurant_744,Cafe,Risk 3 (Low),6918 Main St,Chicago,IL,60652,L4697692,2025-04-13,131,0,0,0
+745,Restaurant_745,Bakery,Risk 1 (High),4986 Main St,Chicago,IL,60689,L8166344,2016-01-03,125,0,0,9
+746,Restaurant_746,Grocery Store,Risk 3 (Low),7015 Main St,Chicago,IL,60646,L3235688,2015-07-28,182,1,1,9
+747,Restaurant_747,Grocery Store,Risk 1 (High),2867 Main St,Chicago,IL,60605,L1069269,2019-02-26,44,1,1,6
+748,Restaurant_748,Grocery Store,Risk 3 (Low),1790 Main St,Chicago,IL,60651,L6360181,2022-02-07,40,0,1,3
+749,Restaurant_749,Cafe,Risk 3 (Low),3505 Main St,Chicago,IL,60690,L4803943,2016-01-21,149,1,0,9
+750,Restaurant_750,Cafe,Risk 2 (Medium),164 Main St,Chicago,IL,60623,L5680683,2018-04-23,54,0,0,7
+751,Restaurant_751,Grocery Store,Risk 3 (Low),5066 Main St,Chicago,IL,60610,L6363474,2024-12-27,172,1,0,0
+752,Restaurant_752,Grocery Store,Risk 1 (High),5742 Main St,Chicago,IL,60614,L8067215,2025-02-19,23,0,1,0
+753,Restaurant_753,Food Truck,Risk 2 (Medium),6633 Main St,Chicago,IL,60655,L8248300,2015-07-08,52,1,0,9
+754,Restaurant_754,Cafe,Risk 3 (Low),2393 Main St,Chicago,IL,60634,L3341827,2016-07-09,54,1,0,8
+755,Restaurant_755,Bakery,Risk 2 (Medium),5789 Main St,Chicago,IL,60693,L8538520,2023-12-20,76,0,0,1
+756,Restaurant_756,Cafe,Risk 1 (High),5222 Main St,Chicago,IL,60656,L2963753,2022-12-28,189,1,0,2
+757,Restaurant_757,Restaurant,Risk 3 (Low),3178 Main St,Chicago,IL,60638,L5887480,2017-08-21,88,1,1,7
+758,Restaurant_758,Cafe,Risk 2 (Medium),9426 Main St,Chicago,IL,60644,L1249926,2018-01-03,53,0,1,7
+759,Restaurant_759,Grocery Store,Risk 3 (Low),6585 Main St,Chicago,IL,60638,L3901227,2023-11-30,122,0,1,1
+760,Restaurant_760,Restaurant,Risk 3 (Low),6198 Main St,Chicago,IL,60680,L2060223,2017-03-22,99,1,0,8
+761,Restaurant_761,Cafe,Risk 1 (High),9286 Main St,Chicago,IL,60676,L9784840,2020-11-17,79,0,0,4
+762,Restaurant_762,Grocery Store,Risk 2 (Medium),6472 Main St,Chicago,IL,60637,L2863317,2021-01-01,144,1,1,4
+763,Restaurant_763,Restaurant,Risk 2 (Medium),4017 Main St,Chicago,IL,60694,L5700274,2015-09-16,52,1,1,9
+764,Restaurant_764,Bakery,Risk 3 (Low),1184 Main St,Chicago,IL,60621,L5317505,2022-05-02,21,0,0,3
+765,Restaurant_765,Food Truck,Risk 1 (High),8429 Main St,Chicago,IL,60625,L4043056,2019-08-17,171,1,0,5
+766,Restaurant_766,Food Truck,Risk 2 (Medium),3100 Main St,Chicago,IL,60660,L2253543,2018-01-30,130,0,1,7
+767,Restaurant_767,Cafe,Risk 3 (Low),2934 Main St,Chicago,IL,60699,L7451133,2022-05-14,119,1,1,3
+768,Restaurant_768,Grocery Store,Risk 3 (Low),531 Main St,Chicago,IL,60624,L6053089,2021-10-15,125,1,0,3
+769,Restaurant_769,Grocery Store,Risk 2 (Medium),7360 Main St,Chicago,IL,60696,L4073159,2019-09-26,121,0,0,5
+770,Restaurant_770,Cafe,Risk 1 (High),2901 Main St,Chicago,IL,60618,L1399555,2022-04-30,139,0,1,3
+771,Restaurant_771,Restaurant,Risk 1 (High),476 Main St,Chicago,IL,60686,L7082988,2023-08-06,61,0,0,1
+772,Restaurant_772,Cafe,Risk 2 (Medium),5004 Main St,Chicago,IL,60698,L4605754,2019-10-25,188,1,0,5
+773,Restaurant_773,Cafe,Risk 2 (Medium),6902 Main St,Chicago,IL,60618,L5803602,2016-12-23,192,1,1,8
+774,Restaurant_774,Restaurant,Risk 1 (High),4816 Main St,Chicago,IL,60678,L6704488,2019-10-15,63,1,0,5
+775,Restaurant_775,Cafe,Risk 2 (Medium),3638 Main St,Chicago,IL,60659,L9633295,2021-09-20,56,1,0,3
+776,Restaurant_776,Food Truck,Risk 3 (Low),7995 Main St,Chicago,IL,60631,L2095873,2024-08-16,124,0,1,0
+777,Restaurant_777,Restaurant,Risk 1 (High),9351 Main St,Chicago,IL,60665,L8011389,2024-04-07,154,0,0,1
+778,Restaurant_778,Restaurant,Risk 3 (Low),1896 Main St,Chicago,IL,60639,L7096981,2024-10-25,135,0,0,0
+779,Restaurant_779,Bakery,Risk 2 (Medium),4910 Main St,Chicago,IL,60629,L2402665,2019-07-15,171,0,0,5
+780,Restaurant_780,Food Truck,Risk 3 (Low),9464 Main St,Chicago,IL,60653,L2598247,2025-03-24,103,0,1,0
+781,Restaurant_781,Restaurant,Risk 2 (Medium),9160 Main St,Chicago,IL,60662,L2041703,2021-08-11,31,0,1,3
+782,Restaurant_782,Bakery,Risk 2 (Medium),2459 Main St,Chicago,IL,60671,L9847101,2021-03-16,24,1,0,4
+783,Restaurant_783,Food Truck,Risk 2 (Medium),691 Main St,Chicago,IL,60678,L2358638,2020-03-15,107,0,1,5
+784,Restaurant_784,Restaurant,Risk 3 (Low),7449 Main St,Chicago,IL,60627,L5473928,2016-04-12,195,0,0,9
+785,Restaurant_785,Grocery Store,Risk 3 (Low),4311 Main St,Chicago,IL,60618,L2778273,2025-05-17,71,0,1,0
+786,Restaurant_786,Cafe,Risk 3 (Low),5979 Main St,Chicago,IL,60601,L7760317,2018-03-09,179,1,1,7
+787,Restaurant_787,Bakery,Risk 2 (Medium),3247 Main St,Chicago,IL,60632,L6950917,2024-01-02,81,0,0,1
+788,Restaurant_788,Grocery Store,Risk 3 (Low),7537 Main St,Chicago,IL,60609,L5776320,2016-09-18,148,1,0,8
+789,Restaurant_789,Cafe,Risk 3 (Low),6370 Main St,Chicago,IL,60632,L4809189,2016-06-07,78,0,0,8
+790,Restaurant_790,Food Truck,Risk 1 (High),7631 Main St,Chicago,IL,60634,L2791673,2024-09-12,81,1,0,0
+791,Restaurant_791,Food Truck,Risk 2 (Medium),407 Main St,Chicago,IL,60685,L3731239,2024-12-20,116,0,1,0
+792,Restaurant_792,Food Truck,Risk 2 (Medium),20 Main St,Chicago,IL,60614,L4945044,2019-08-31,176,0,1,5
+793,Restaurant_793,Grocery Store,Risk 3 (Low),6019 Main St,Chicago,IL,60618,L1670144,2019-06-27,61,1,1,5
+794,Restaurant_794,Bakery,Risk 1 (High),5820 Main St,Chicago,IL,60696,L5276363,2025-02-20,45,1,0,0
+795,Restaurant_795,Grocery Store,Risk 2 (Medium),1005 Main St,Chicago,IL,60681,L9381322,2023-01-04,169,0,1,2
+796,Restaurant_796,Restaurant,Risk 1 (High),2082 Main St,Chicago,IL,60672,L5683756,2019-03-05,61,1,0,6
+797,Restaurant_797,Bakery,Risk 1 (High),5917 Main St,Chicago,IL,60647,L1098093,2024-12-21,47,0,1,0
+798,Restaurant_798,Food Truck,Risk 2 (Medium),7080 Main St,Chicago,IL,60633,L3222536,2015-06-03,191,1,0,9
+799,Restaurant_799,Restaurant,Risk 1 (High),2499 Main St,Chicago,IL,60679,L1626716,2022-10-08,173,0,1,2
+800,Restaurant_800,Cafe,Risk 1 (High),3593 Main St,Chicago,IL,60685,L9599198,2018-02-19,78,1,1,7
+801,Restaurant_801,Cafe,Risk 3 (Low),9271 Main St,Chicago,IL,60651,L9158269,2015-08-01,143,1,0,9
+802,Restaurant_802,Food Truck,Risk 2 (Medium),1065 Main St,Chicago,IL,60643,L6063528,2020-09-02,151,1,1,4
+803,Restaurant_803,Restaurant,Risk 2 (Medium),4502 Main St,Chicago,IL,60653,L3157851,2025-02-19,130,0,1,0
+804,Restaurant_804,Food Truck,Risk 2 (Medium),1485 Main St,Chicago,IL,60647,L8356163,2019-01-25,27,1,0,6
+805,Restaurant_805,Food Truck,Risk 1 (High),2749 Main St,Chicago,IL,60670,L9368718,2017-05-10,136,0,0,8
+806,Restaurant_806,Cafe,Risk 3 (Low),7719 Main St,Chicago,IL,60622,L1745569,2017-06-02,61,1,0,7
+807,Restaurant_807,Restaurant,Risk 1 (High),9851 Main St,Chicago,IL,60665,L3584092,2015-08-16,144,0,0,9
+808,Restaurant_808,Grocery Store,Risk 1 (High),9837 Main St,Chicago,IL,60640,L3137901,2021-03-20,121,0,0,4
+809,Restaurant_809,Restaurant,Risk 2 (Medium),4723 Main St,Chicago,IL,60665,L9590768,2016-12-09,130,1,1,8
+810,Restaurant_810,Bakery,Risk 2 (Medium),1022 Main St,Chicago,IL,60643,L1725260,2015-07-09,94,1,0,9
+811,Restaurant_811,Bakery,Risk 1 (High),8635 Main St,Chicago,IL,60639,L6016729,2020-11-25,81,1,0,4
+812,Restaurant_812,Bakery,Risk 2 (Medium),2112 Main St,Chicago,IL,60680,L1175351,2022-05-18,187,1,0,3
+813,Restaurant_813,Grocery Store,Risk 3 (Low),4205 Main St,Chicago,IL,60692,L2395694,2021-07-11,80,0,1,3
+814,Restaurant_814,Bakery,Risk 3 (Low),8565 Main St,Chicago,IL,60623,L4010414,2022-09-28,119,0,0,2
+815,Restaurant_815,Restaurant,Risk 3 (Low),7544 Main St,Chicago,IL,60633,L1985917,2016-07-03,135,1,1,8
+816,Restaurant_816,Restaurant,Risk 2 (Medium),4349 Main St,Chicago,IL,60648,L8237860,2020-11-14,31,0,1,4
+817,Restaurant_817,Food Truck,Risk 2 (Medium),5620 Main St,Chicago,IL,60611,L6492532,2021-02-27,199,1,0,4
+818,Restaurant_818,Restaurant,Risk 1 (High),3857 Main St,Chicago,IL,60680,L5364373,2020-05-21,127,0,0,5
+819,Restaurant_819,Grocery Store,Risk 3 (Low),9384 Main St,Chicago,IL,60623,L7543299,2024-11-25,152,1,0,0
+820,Restaurant_820,Food Truck,Risk 1 (High),3836 Main St,Chicago,IL,60616,L1851376,2016-08-28,60,1,0,8
+821,Restaurant_821,Grocery Store,Risk 2 (Medium),757 Main St,Chicago,IL,60683,L9203243,2017-10-15,37,1,1,7
+822,Restaurant_822,Bakery,Risk 3 (Low),1137 Main St,Chicago,IL,60675,L9691113,2021-11-27,35,0,0,3
+823,Restaurant_823,Food Truck,Risk 1 (High),8379 Main St,Chicago,IL,60662,L1369690,2022-06-20,183,1,1,2
+824,Restaurant_824,Restaurant,Risk 3 (Low),998 Main St,Chicago,IL,60667,L3994609,2025-01-19,157,1,1,0
+825,Restaurant_825,Food Truck,Risk 2 (Medium),1501 Main St,Chicago,IL,60663,L7691593,2017-05-30,190,1,0,8
+826,Restaurant_826,Grocery Store,Risk 3 (Low),1308 Main St,Chicago,IL,60620,L9830924,2023-12-27,23,0,1,1
+827,Restaurant_827,Restaurant,Risk 1 (High),1701 Main St,Chicago,IL,60660,L6579715,2016-03-12,37,0,0,9
+828,Restaurant_828,Bakery,Risk 2 (Medium),8423 Main St,Chicago,IL,60604,L8539815,2022-08-08,115,0,0,2
+829,Restaurant_829,Food Truck,Risk 1 (High),3903 Main St,Chicago,IL,60652,L1632779,2015-06-04,42,0,1,9
+830,Restaurant_830,Food Truck,Risk 3 (Low),3894 Main St,Chicago,IL,60661,L6945774,2019-05-07,39,1,0,6
+831,Restaurant_831,Restaurant,Risk 1 (High),4522 Main St,Chicago,IL,60646,L3131019,2024-12-15,107,1,1,0
+832,Restaurant_832,Food Truck,Risk 3 (Low),3221 Main St,Chicago,IL,60697,L5879369,2022-12-28,110,1,1,2
+833,Restaurant_833,Bakery,Risk 1 (High),6266 Main St,Chicago,IL,60649,L2757207,2020-07-27,190,1,1,4
+834,Restaurant_834,Grocery Store,Risk 3 (Low),8647 Main St,Chicago,IL,60623,L9879543,2019-07-16,186,0,0,5
+835,Restaurant_835,Cafe,Risk 2 (Medium),570 Main St,Chicago,IL,60650,L2302661,2022-07-01,77,0,1,2
+836,Restaurant_836,Grocery Store,Risk 3 (Low),1467 Main St,Chicago,IL,60675,L3930830,2023-08-03,103,1,0,1
+837,Restaurant_837,Restaurant,Risk 1 (High),5134 Main St,Chicago,IL,60640,L5434650,2023-03-29,52,0,0,2
+838,Restaurant_838,Food Truck,Risk 3 (Low),7278 Main St,Chicago,IL,60647,L5493682,2019-06-21,140,1,1,5
+839,Restaurant_839,Food Truck,Risk 3 (Low),8093 Main St,Chicago,IL,60654,L5154222,2024-10-18,75,0,1,0
+840,Restaurant_840,Restaurant,Risk 3 (Low),1592 Main St,Chicago,IL,60673,L2370210,2023-08-07,141,1,1,1
+841,Restaurant_841,Bakery,Risk 2 (Medium),3590 Main St,Chicago,IL,60602,L9533239,2018-03-02,26,1,0,7
+842,Restaurant_842,Bakery,Risk 2 (Medium),296 Main St,Chicago,IL,60606,L5192275,2017-08-02,22,0,1,7
+843,Restaurant_843,Restaurant,Risk 1 (High),9014 Main St,Chicago,IL,60639,L3711368,2019-05-01,171,1,0,6
+844,Restaurant_844,Food Truck,Risk 2 (Medium),437 Main St,Chicago,IL,60629,L2777221,2024-03-20,38,0,0,1
+845,Restaurant_845,Restaurant,Risk 3 (Low),8441 Main St,Chicago,IL,60699,L1448879,2024-02-06,61,0,1,1
+846,Restaurant_846,Restaurant,Risk 2 (Medium),4677 Main St,Chicago,IL,60659,L1785999,2024-07-19,94,0,0,0
+847,Restaurant_847,Bakery,Risk 1 (High),7096 Main St,Chicago,IL,60614,L7460125,2023-10-22,188,0,0,1
+848,Restaurant_848,Grocery Store,Risk 3 (Low),3634 Main St,Chicago,IL,60609,L2425344,2016-01-04,52,1,1,9
+849,Restaurant_849,Grocery Store,Risk 1 (High),9529 Main St,Chicago,IL,60601,L6481869,2019-05-16,73,1,0,6
+850,Restaurant_850,Grocery Store,Risk 1 (High),3938 Main St,Chicago,IL,60636,L3107108,2024-02-24,150,0,0,1
+851,Restaurant_851,Restaurant,Risk 3 (Low),2472 Main St,Chicago,IL,60677,L3405193,2024-09-12,69,1,1,0
+852,Restaurant_852,Restaurant,Risk 3 (Low),3274 Main St,Chicago,IL,60644,L6754182,2020-04-02,180,0,1,5
+853,Restaurant_853,Cafe,Risk 3 (Low),8457 Main St,Chicago,IL,60618,L8864847,2017-08-21,76,0,1,7
+854,Restaurant_854,Restaurant,Risk 2 (Medium),5105 Main St,Chicago,IL,60626,L5014701,2015-11-30,152,0,0,9
+855,Restaurant_855,Bakery,Risk 2 (Medium),8754 Main St,Chicago,IL,60656,L3791171,2025-05-21,76,1,1,0
+856,Restaurant_856,Restaurant,Risk 1 (High),9625 Main St,Chicago,IL,60624,L1080914,2021-08-08,32,1,1,3
+857,Restaurant_857,Grocery Store,Risk 3 (Low),824 Main St,Chicago,IL,60696,L3113669,2020-08-17,23,1,1,4
+858,Restaurant_858,Restaurant,Risk 1 (High),9427 Main St,Chicago,IL,60651,L1374383,2023-05-19,50,1,1,2
+859,Restaurant_859,Grocery Store,Risk 2 (Medium),5571 Main St,Chicago,IL,60691,L6220309,2021-09-28,156,1,1,3
+860,Restaurant_860,Grocery Store,Risk 3 (Low),3356 Main St,Chicago,IL,60620,L7604436,2021-05-27,110,0,0,4
+861,Restaurant_861,Grocery Store,Risk 1 (High),6192 Main St,Chicago,IL,60679,L9565308,2022-08-23,120,0,0,2
+862,Restaurant_862,Cafe,Risk 1 (High),3115 Main St,Chicago,IL,60648,L6275580,2015-11-24,32,0,1,9
+863,Restaurant_863,Cafe,Risk 2 (Medium),7007 Main St,Chicago,IL,60616,L6475787,2015-06-19,193,1,0,9
+864,Restaurant_864,Restaurant,Risk 1 (High),9963 Main St,Chicago,IL,60693,L1757396,2021-02-23,58,0,0,4
+865,Restaurant_865,Bakery,Risk 3 (Low),4714 Main St,Chicago,IL,60643,L6587168,2019-11-07,115,0,0,5
+866,Restaurant_866,Food Truck,Risk 3 (Low),4395 Main St,Chicago,IL,60697,L7913209,2019-06-08,64,0,1,5
+867,Restaurant_867,Cafe,Risk 1 (High),6088 Main St,Chicago,IL,60692,L6311711,2022-02-10,196,0,1,3
+868,Restaurant_868,Restaurant,Risk 2 (Medium),8668 Main St,Chicago,IL,60642,L4730673,2024-03-25,50,1,0,1
+869,Restaurant_869,Bakery,Risk 3 (Low),567 Main St,Chicago,IL,60641,L1101360,2023-07-25,95,0,1,1
+870,Restaurant_870,Bakery,Risk 3 (Low),4823 Main St,Chicago,IL,60672,L3709869,2018-03-29,193,1,1,7
+871,Restaurant_871,Food Truck,Risk 2 (Medium),288 Main St,Chicago,IL,60651,L3509252,2021-08-09,128,0,0,3
+872,Restaurant_872,Bakery,Risk 3 (Low),5754 Main St,Chicago,IL,60682,L6658997,2020-10-15,58,1,0,4
+873,Restaurant_873,Bakery,Risk 2 (Medium),9941 Main St,Chicago,IL,60695,L5756441,2018-11-17,127,0,0,6
+874,Restaurant_874,Cafe,Risk 2 (Medium),7747 Main St,Chicago,IL,60697,L4761311,2021-02-27,198,0,0,4
+875,Restaurant_875,Food Truck,Risk 2 (Medium),8356 Main St,Chicago,IL,60630,L7768493,2019-03-26,83,1,1,6
+876,Restaurant_876,Food Truck,Risk 3 (Low),2914 Main St,Chicago,IL,60691,L9191551,2015-06-07,83,1,1,9
+877,Restaurant_877,Bakery,Risk 1 (High),120 Main St,Chicago,IL,60678,L1311254,2022-10-25,22,1,0,2
+878,Restaurant_878,Bakery,Risk 3 (Low),8052 Main St,Chicago,IL,60653,L4826738,2022-08-25,94,0,0,2
+879,Restaurant_879,Grocery Store,Risk 1 (High),1083 Main St,Chicago,IL,60648,L3267336,2023-05-11,190,0,1,2
+880,Restaurant_880,Food Truck,Risk 2 (Medium),9157 Main St,Chicago,IL,60644,L1025872,2017-11-26,148,1,0,7
+881,Restaurant_881,Food Truck,Risk 3 (Low),7799 Main St,Chicago,IL,60662,L5446445,2023-10-10,191,0,0,1
+882,Restaurant_882,Grocery Store,Risk 3 (Low),8004 Main St,Chicago,IL,60688,L2787447,2023-02-23,119,0,1,2
+883,Restaurant_883,Cafe,Risk 3 (Low),7398 Main St,Chicago,IL,60682,L7529622,2022-09-29,74,0,1,2
+884,Restaurant_884,Restaurant,Risk 1 (High),3176 Main St,Chicago,IL,60633,L3810103,2019-09-12,33,0,0,5
+885,Restaurant_885,Restaurant,Risk 3 (Low),5432 Main St,Chicago,IL,60610,L1558834,2022-04-29,162,0,0,3
+886,Restaurant_886,Bakery,Risk 2 (Medium),5320 Main St,Chicago,IL,60653,L9142589,2024-12-18,30,0,1,0
+887,Restaurant_887,Food Truck,Risk 3 (Low),9098 Main St,Chicago,IL,60692,L8588318,2016-05-01,181,1,1,9
+888,Restaurant_888,Cafe,Risk 1 (High),4217 Main St,Chicago,IL,60624,L6052132,2020-06-04,168,0,1,4
+889,Restaurant_889,Restaurant,Risk 1 (High),5371 Main St,Chicago,IL,60691,L2227095,2018-12-08,108,1,1,6
+890,Restaurant_890,Food Truck,Risk 2 (Medium),8434 Main St,Chicago,IL,60640,L5610410,2021-02-22,102,1,1,4
+891,Restaurant_891,Food Truck,Risk 1 (High),8083 Main St,Chicago,IL,60641,L2074305,2019-10-03,66,0,0,5
+892,Restaurant_892,Cafe,Risk 3 (Low),8323 Main St,Chicago,IL,60603,L4186833,2019-08-29,173,1,1,5
+893,Restaurant_893,Cafe,Risk 2 (Medium),8676 Main St,Chicago,IL,60698,L2285982,2016-09-14,173,1,1,8
+894,Restaurant_894,Food Truck,Risk 3 (Low),604 Main St,Chicago,IL,60668,L6842353,2015-07-23,45,1,0,9
+895,Restaurant_895,Bakery,Risk 1 (High),5956 Main St,Chicago,IL,60654,L5089702,2015-09-09,78,0,1,9
+896,Restaurant_896,Grocery Store,Risk 2 (Medium),9341 Main St,Chicago,IL,60658,L2897261,2017-10-18,174,1,0,7
+897,Restaurant_897,Cafe,Risk 3 (Low),8199 Main St,Chicago,IL,60666,L8535254,2022-04-24,130,1,1,3
+898,Restaurant_898,Grocery Store,Risk 3 (Low),9965 Main St,Chicago,IL,60660,L2868211,2022-10-05,41,1,0,2
+899,Restaurant_899,Grocery Store,Risk 2 (Medium),9096 Main St,Chicago,IL,60696,L8961934,2023-06-24,114,0,0,1
+900,Restaurant_900,Grocery Store,Risk 2 (Medium),6315 Main St,Chicago,IL,60633,L7617523,2018-01-20,106,1,1,7
+901,Restaurant_901,Grocery Store,Risk 1 (High),5122 Main St,Chicago,IL,60617,L5785807,2020-08-29,153,0,1,4
+902,Restaurant_902,Cafe,Risk 3 (Low),6527 Main St,Chicago,IL,60655,L4220618,2021-03-23,163,1,0,4
+903,Restaurant_903,Grocery Store,Risk 3 (Low),8082 Main St,Chicago,IL,60671,L3385836,2022-07-10,136,0,0,2
+904,Restaurant_904,Cafe,Risk 1 (High),3251 Main St,Chicago,IL,60613,L7712623,2021-02-16,184,0,0,4
+905,Restaurant_905,Cafe,Risk 1 (High),2721 Main St,Chicago,IL,60647,L4110442,2019-05-31,137,0,0,6
+906,Restaurant_906,Bakery,Risk 1 (High),9563 Main St,Chicago,IL,60665,L8196363,2021-12-01,145,0,1,3
+907,Restaurant_907,Cafe,Risk 3 (Low),5767 Main St,Chicago,IL,60618,L8856711,2018-02-09,142,1,0,7
+908,Restaurant_908,Cafe,Risk 1 (High),2715 Main St,Chicago,IL,60626,L8112211,2018-08-28,88,1,0,6
+909,Restaurant_909,Grocery Store,Risk 2 (Medium),7369 Main St,Chicago,IL,60685,L5554889,2016-05-14,150,1,1,9
+910,Restaurant_910,Restaurant,Risk 3 (Low),729 Main St,Chicago,IL,60639,L4449300,2022-11-30,183,1,1,2
+911,Restaurant_911,Food Truck,Risk 3 (Low),4463 Main St,Chicago,IL,60621,L3351409,2021-10-10,66,0,1,3
+912,Restaurant_912,Cafe,Risk 3 (Low),1176 Main St,Chicago,IL,60663,L3628050,2016-01-26,174,1,1,9
+913,Restaurant_913,Grocery Store,Risk 2 (Medium),1047 Main St,Chicago,IL,60655,L3137759,2024-10-31,133,1,0,0
+914,Restaurant_914,Grocery Store,Risk 1 (High),9956 Main St,Chicago,IL,60626,L3755678,2017-09-14,195,0,0,7
+915,Restaurant_915,Bakery,Risk 3 (Low),9842 Main St,Chicago,IL,60631,L7003319,2020-02-03,54,1,0,5
+916,Restaurant_916,Cafe,Risk 1 (High),1312 Main St,Chicago,IL,60682,L7209013,2022-01-08,61,0,1,3
+917,Restaurant_917,Cafe,Risk 3 (Low),3144 Main St,Chicago,IL,60610,L5887370,2022-02-25,79,0,0,3
+918,Restaurant_918,Restaurant,Risk 1 (High),2013 Main St,Chicago,IL,60659,L5353896,2021-08-24,93,1,0,3
+919,Restaurant_919,Bakery,Risk 3 (Low),9189 Main St,Chicago,IL,60643,L7917441,2017-05-24,33,1,1,8
+920,Restaurant_920,Cafe,Risk 3 (Low),9056 Main St,Chicago,IL,60616,L7909067,2021-10-03,68,1,1,3
+921,Restaurant_921,Cafe,Risk 3 (Low),9717 Main St,Chicago,IL,60687,L7644339,2020-09-26,173,1,0,4
+922,Restaurant_922,Food Truck,Risk 2 (Medium),6927 Main St,Chicago,IL,60649,L6851537,2022-02-21,107,0,1,3
+923,Restaurant_923,Grocery Store,Risk 3 (Low),4146 Main St,Chicago,IL,60631,L7115055,2015-11-15,94,0,0,9
+924,Restaurant_924,Bakery,Risk 3 (Low),9344 Main St,Chicago,IL,60687,L6581079,2015-07-02,104,1,1,9
+925,Restaurant_925,Restaurant,Risk 2 (Medium),6217 Main St,Chicago,IL,60695,L9026306,2021-03-16,72,1,0,4
+926,Restaurant_926,Grocery Store,Risk 2 (Medium),8072 Main St,Chicago,IL,60609,L4618483,2024-08-25,63,1,1,0
+927,Restaurant_927,Bakery,Risk 1 (High),8198 Main St,Chicago,IL,60698,L8025412,2018-09-15,88,0,1,6
+928,Restaurant_928,Bakery,Risk 2 (Medium),5337 Main St,Chicago,IL,60607,L7883597,2020-09-12,95,1,1,4
+929,Restaurant_929,Grocery Store,Risk 1 (High),8364 Main St,Chicago,IL,60635,L7303142,2017-12-13,116,1,0,7
+930,Restaurant_930,Restaurant,Risk 2 (Medium),7090 Main St,Chicago,IL,60659,L3938750,2024-08-27,62,1,1,0
+931,Restaurant_931,Food Truck,Risk 2 (Medium),8149 Main St,Chicago,IL,60648,L8926313,2024-10-30,21,1,1,0
+932,Restaurant_932,Restaurant,Risk 1 (High),4187 Main St,Chicago,IL,60674,L2680338,2017-11-06,153,1,0,7
+933,Restaurant_933,Food Truck,Risk 1 (High),9334 Main St,Chicago,IL,60646,L2047179,2023-04-29,103,1,0,2
+934,Restaurant_934,Cafe,Risk 3 (Low),7748 Main St,Chicago,IL,60658,L3658282,2022-07-27,149,0,1,2
+935,Restaurant_935,Grocery Store,Risk 3 (Low),132 Main St,Chicago,IL,60610,L3531412,2020-11-05,46,0,1,4
+936,Restaurant_936,Bakery,Risk 2 (Medium),4951 Main St,Chicago,IL,60693,L6334495,2025-04-01,176,1,1,0
+937,Restaurant_937,Food Truck,Risk 1 (High),7268 Main St,Chicago,IL,60622,L6868361,2024-04-22,179,1,1,1
+938,Restaurant_938,Cafe,Risk 2 (Medium),2371 Main St,Chicago,IL,60675,L8819963,2019-11-24,177,0,1,5
+939,Restaurant_939,Grocery Store,Risk 2 (Medium),2797 Main St,Chicago,IL,60649,L1003469,2020-05-26,96,0,1,5
+940,Restaurant_940,Restaurant,Risk 3 (Low),6957 Main St,Chicago,IL,60688,L2415004,2016-04-23,193,1,0,9
+941,Restaurant_941,Grocery Store,Risk 1 (High),1765 Main St,Chicago,IL,60640,L1277910,2023-05-13,156,0,0,2
+942,Restaurant_942,Bakery,Risk 3 (Low),7087 Main St,Chicago,IL,60665,L2837351,2023-12-08,136,0,1,1
+943,Restaurant_943,Grocery Store,Risk 2 (Medium),6362 Main St,Chicago,IL,60693,L3618280,2019-05-20,97,0,0,6
+944,Restaurant_944,Bakery,Risk 3 (Low),8122 Main St,Chicago,IL,60608,L5789095,2024-09-30,150,1,0,0
+945,Restaurant_945,Bakery,Risk 2 (Medium),1612 Main St,Chicago,IL,60618,L3261385,2025-03-13,24,1,1,0
+946,Restaurant_946,Grocery Store,Risk 2 (Medium),2903 Main St,Chicago,IL,60691,L5617244,2018-04-05,44,0,1,7
+947,Restaurant_947,Grocery Store,Risk 3 (Low),4814 Main St,Chicago,IL,60688,L9958242,2022-04-05,196,0,0,3
+948,Restaurant_948,Grocery Store,Risk 1 (High),3314 Main St,Chicago,IL,60690,L7596394,2017-09-20,101,0,1,7
+949,Restaurant_949,Restaurant,Risk 1 (High),864 Main St,Chicago,IL,60618,L6434103,2022-11-24,153,0,1,2
+950,Restaurant_950,Cafe,Risk 1 (High),4998 Main St,Chicago,IL,60647,L6601444,2020-06-28,184,1,0,4
+951,Restaurant_951,Grocery Store,Risk 2 (Medium),7450 Main St,Chicago,IL,60693,L1610141,2017-03-15,90,0,0,8
+952,Restaurant_952,Food Truck,Risk 3 (Low),7130 Main St,Chicago,IL,60659,L4944217,2019-10-08,39,1,1,5
+953,Restaurant_953,Cafe,Risk 2 (Medium),8385 Main St,Chicago,IL,60675,L3722694,2022-12-16,27,0,0,2
+954,Restaurant_954,Food Truck,Risk 3 (Low),7732 Main St,Chicago,IL,60604,L5089529,2020-09-30,127,0,1,4
+955,Restaurant_955,Grocery Store,Risk 3 (Low),7445 Main St,Chicago,IL,60670,L7612825,2021-01-16,62,1,0,4
+956,Restaurant_956,Food Truck,Risk 1 (High),6877 Main St,Chicago,IL,60657,L4671673,2020-02-28,128,0,0,5
+957,Restaurant_957,Grocery Store,Risk 1 (High),6777 Main St,Chicago,IL,60696,L5351855,2017-03-31,54,1,0,8
+958,Restaurant_958,Restaurant,Risk 3 (Low),5176 Main St,Chicago,IL,60617,L7938152,2020-10-14,160,1,1,4
+959,Restaurant_959,Restaurant,Risk 3 (Low),606 Main St,Chicago,IL,60662,L6054407,2022-06-20,43,0,0,2
+960,Restaurant_960,Grocery Store,Risk 3 (Low),6884 Main St,Chicago,IL,60670,L9348739,2016-02-15,45,1,1,9
+961,Restaurant_961,Grocery Store,Risk 2 (Medium),1574 Main St,Chicago,IL,60683,L2317324,2020-12-23,78,0,0,4
+962,Restaurant_962,Bakery,Risk 2 (Medium),2159 Main St,Chicago,IL,60678,L3589363,2021-03-25,39,0,0,4
+963,Restaurant_963,Bakery,Risk 1 (High),3375 Main St,Chicago,IL,60623,L4293001,2021-09-12,168,0,0,3
+964,Restaurant_964,Grocery Store,Risk 2 (Medium),9263 Main St,Chicago,IL,60689,L4186342,2019-03-02,141,0,1,6
+965,Restaurant_965,Grocery Store,Risk 1 (High),3200 Main St,Chicago,IL,60663,L5403629,2021-09-19,159,1,1,3
+966,Restaurant_966,Restaurant,Risk 3 (Low),2901 Main St,Chicago,IL,60658,L8032684,2024-09-24,76,0,1,0
+967,Restaurant_967,Bakery,Risk 2 (Medium),314 Main St,Chicago,IL,60693,L2625652,2016-05-21,91,0,0,9
+968,Restaurant_968,Restaurant,Risk 3 (Low),5063 Main St,Chicago,IL,60631,L5376938,2021-10-13,181,1,0,3
+969,Restaurant_969,Grocery Store,Risk 3 (Low),7169 Main St,Chicago,IL,60694,L8556610,2023-01-09,124,1,1,2
+970,Restaurant_970,Restaurant,Risk 2 (Medium),4970 Main St,Chicago,IL,60672,L4449344,2016-09-25,108,1,1,8
+971,Restaurant_971,Restaurant,Risk 3 (Low),9975 Main St,Chicago,IL,60610,L6394975,2018-12-30,102,0,1,6
+972,Restaurant_972,Bakery,Risk 2 (Medium),6498 Main St,Chicago,IL,60631,L5177497,2021-03-04,52,0,1,4
+973,Restaurant_973,Restaurant,Risk 2 (Medium),4502 Main St,Chicago,IL,60684,L3324468,2022-04-09,28,1,0,3
+974,Restaurant_974,Grocery Store,Risk 3 (Low),1144 Main St,Chicago,IL,60616,L6100210,2018-10-15,125,0,1,6
+975,Restaurant_975,Restaurant,Risk 1 (High),8187 Main St,Chicago,IL,60678,L7789627,2019-11-23,94,1,1,5
+976,Restaurant_976,Restaurant,Risk 1 (High),6969 Main St,Chicago,IL,60610,L4814687,2020-09-21,135,1,0,4
+977,Restaurant_977,Cafe,Risk 3 (Low),838 Main St,Chicago,IL,60657,L4772387,2021-05-16,161,0,0,4
+978,Restaurant_978,Grocery Store,Risk 3 (Low),6784 Main St,Chicago,IL,60630,L3270338,2015-11-09,171,0,1,9
+979,Restaurant_979,Food Truck,Risk 3 (Low),564 Main St,Chicago,IL,60690,L1356256,2021-10-02,63,0,1,3
+980,Restaurant_980,Cafe,Risk 3 (Low),1263 Main St,Chicago,IL,60656,L7348617,2019-10-22,64,0,0,5
+981,Restaurant_981,Grocery Store,Risk 3 (Low),3728 Main St,Chicago,IL,60622,L5620634,2019-08-16,100,1,1,5
+982,Restaurant_982,Food Truck,Risk 3 (Low),331 Main St,Chicago,IL,60614,L2105780,2023-12-12,159,1,1,1
+983,Restaurant_983,Grocery Store,Risk 1 (High),9930 Main St,Chicago,IL,60607,L2249760,2016-05-29,134,0,1,9
+984,Restaurant_984,Restaurant,Risk 2 (Medium),3489 Main St,Chicago,IL,60621,L2088833,2024-01-19,173,1,0,1
+985,Restaurant_985,Food Truck,Risk 3 (Low),4554 Main St,Chicago,IL,60645,L5308323,2021-02-15,73,0,1,4
+986,Restaurant_986,Grocery Store,Risk 2 (Medium),7827 Main St,Chicago,IL,60641,L7493756,2016-11-13,181,0,0,8
+987,Restaurant_987,Grocery Store,Risk 3 (Low),5760 Main St,Chicago,IL,60620,L5104402,2023-03-25,159,0,0,2
+988,Restaurant_988,Cafe,Risk 2 (Medium),64 Main St,Chicago,IL,60664,L5725001,2019-12-17,179,1,0,5
+989,Restaurant_989,Food Truck,Risk 1 (High),3285 Main St,Chicago,IL,60632,L6030449,2018-10-31,151,0,0,6
+990,Restaurant_990,Restaurant,Risk 2 (Medium),5763 Main St,Chicago,IL,60648,L4819823,2019-01-27,185,1,0,6
+991,Restaurant_991,Restaurant,Risk 3 (Low),4011 Main St,Chicago,IL,60622,L1722075,2015-12-26,74,1,1,9
+992,Restaurant_992,Restaurant,Risk 1 (High),4611 Main St,Chicago,IL,60662,L1308387,2018-01-27,97,0,0,7
+993,Restaurant_993,Bakery,Risk 1 (High),1173 Main St,Chicago,IL,60621,L6319735,2022-01-07,156,0,0,3
+994,Restaurant_994,Food Truck,Risk 3 (Low),3532 Main St,Chicago,IL,60689,L1715967,2017-08-15,59,0,1,7
+995,Restaurant_995,Restaurant,Risk 1 (High),4409 Main St,Chicago,IL,60668,L5651373,2018-09-29,90,1,0,6
+996,Restaurant_996,Bakery,Risk 3 (Low),6627 Main St,Chicago,IL,60666,L4032130,2021-10-27,110,1,1,3
+997,Restaurant_997,Grocery Store,Risk 2 (Medium),9098 Main St,Chicago,IL,60639,L7271274,2025-01-24,50,1,0,0
+998,Restaurant_998,Bakery,Risk 3 (Low),9799 Main St,Chicago,IL,60602,L7943519,2015-11-12,116,0,1,9
+999,Restaurant_999,Bakery,Risk 1 (High),6799 Main St,Chicago,IL,60651,L1012123,2021-09-05,177,1,0,3
+1000,Restaurant_1000,Bakery,Risk 3 (Low),1326 Main St,Chicago,IL,60636,L9363484,2018-10-20,33,1,0,6

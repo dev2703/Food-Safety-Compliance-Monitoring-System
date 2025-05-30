@@ -1,0 +1,39 @@
+name: 'sentinel'
+version: '1.0.0'
+config-version: 2
+
+profile: 'sentinel'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  sentinel:
+    materialized: table
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+vars:
+  start_date: '2020-01-01'
+  end_date: '2023-12-31'
+
+seeds:
+  sentinel:
+    +schema: raw
+    +materialized: table 

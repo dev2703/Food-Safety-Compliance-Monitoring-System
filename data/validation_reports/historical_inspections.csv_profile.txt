@@ -1,0 +1,21 @@
+## file
+data/raw/historical/historical_inspections.csv
+
+## shape
+(10000, 8)
+
+## columns
+['Inspection ID', 'Restaurant ID', 'Inspection Type', 'Date', 'Result', 'Score', 'Inspector ID', 'Notes']
+
+## dtypes
+{'Inspection ID': 'int64', 'Restaurant ID': 'int64', 'Inspection Type': 'object', 'Date': 'object', 'Result': 'object', 'Score': 'int64', 'Inspector ID': 'object', 'Notes': 'object'}
+
+## missing_values
+{'Inspection ID': 0, 'Restaurant ID': 0, 'Inspection Type': 0, 'Date': 0, 'Result': 0, 'Score': 0, 'Inspector ID': 0, 'Notes': 0}
+
+## sample_rows
+[{'Inspection ID': 1, 'Restaurant ID': 144, 'Inspection Type': 'Complaint', 'Date': '2024-02-23', 'Result': 'Pass', 'Score': 78, 'Inspector ID': 'INSP9524', 'Notes': 'Inspection notes for inspection 1'}, {'Inspection ID': 2, 'Restaurant ID': 542, 'Inspection Type': 'Routine', 'Date': '2025-01-06', 'Result': 'Fail', 'Score': 61, 'Inspector ID': 'INSP1460', 'Notes': 'Inspection notes for inspection 2'}, {'Inspection ID': 3, 'Restaurant ID': 718, 'Inspection Type': 'License', 'Date': '2017-04-15', 'Result': 'Pass', 'Score': 83, 'Inspector ID': 'INSP3819', 'Notes': 'Inspection notes for inspection 3'}]
+
+## describe
+{'Inspection ID': {'count': 10000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 5000.5, 'std': 2886.8956799071675, 'min': 1.0, '25%': 2500.75, '50%': 5000.5, '75%': 7500.25, 'max': 10000.0}, 'Restaurant ID': {'count': 10000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 502.684, 'std': 287.8946871324441, 'min': 1.0, '25%': 259.0, '50%': 503.0, '75%': 751.0, 'max': 1000.0}, 'Inspection Type': {'count': 10000, 'unique': 4, 'top': 'Routine', 'freq': 2577, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Date': {'count': 10000, 'unique': 3422, 'top': '2017-07-20', 'freq': 12, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Result': {'count': 10000, 'unique': 3, 'top': 'Pass w/ Conditions', 'freq': 3353, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Score': {'count': 10000.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 49.9452, 'std': 29.113274553638302, 'min': 0.0, '25%': 25.0, '50%': 50.0, '75%': 75.0, 'max': 100.0}, 'Inspector ID': {'count': 10000, 'unique': 6035, 'top': 'INSP4543', 'freq': 9, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}, 'Notes': {'count': 10000, 'unique': 10000, 'top': 'Inspection notes for inspection 1', 'freq': 1, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}}
+
